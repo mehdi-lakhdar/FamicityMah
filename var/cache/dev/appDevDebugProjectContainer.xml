@@ -558,6 +558,7 @@
     <service id="cache_warmer" class="Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerAggregate">
       <argument type="collection">
         <argument type="service" id="templating.cache_warmer.template_paths"/>
+        <argument type="service" id="kernel.class_cache.cache_warmer"/>
         <argument type="service" id="validator.mapping.cache_warmer"/>
         <argument type="service" id="translation.warmer"/>
         <argument type="service" id="router.cache_warmer"/>
@@ -568,6 +569,7 @@
       </argument>
     </service>
     <service id="kernel.class_cache.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\ClassCacheCacheWarmer">
+      <tag name="kernel.cache_warmer"/>
       <argument type="collection">
         <argument>Symfony\Component\HttpFoundation\ParameterBag</argument>
         <argument>Symfony\Component\HttpFoundation\HeaderBag</argument>
@@ -576,7 +578,6 @@
         <argument>Symfony\Component\HttpFoundation\Request</argument>
         <argument>Symfony\Component\HttpKernel\Kernel</argument>
       </argument>
-      <deprecated>The "%service_id%" option is deprecated since version 3.3, to be removed in 4.0.</deprecated>
     </service>
     <service id="cache_clearer" class="Symfony\Component\HttpKernel\CacheClearer\ChainCacheClearer">
       <argument type="collection">
@@ -682,7 +683,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>sStp1IGKuNNiJYn15J5bUG</argument>
+      <argument>vrpUKxGMfIDq-avOmN0Q1m</argument>
       <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -692,7 +693,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>sStp1IGKuNNiJYn15J5bUG</argument>
+      <argument>vrpUKxGMfIDq-avOmN0Q1m</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
@@ -3069,12 +3070,12 @@
     </service>
     <service id="security.authentication.listener.anonymous.main" class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
       <argument type="service" id="security.token_storage"/>
-      <argument>5952b986cc6852.54788117</argument>
+      <argument>5952bffd616840.18528084</argument>
       <argument type="service" id="monolog.logger.security" on-invalid="null"/>
       <argument type="service" id="security.authentication.manager"/>
     </service>
     <service id="security.authentication.provider.anonymous.main" class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-      <argument>5952b986cc6852.54788117</argument>
+      <argument>5952bffd616840.18528084</argument>
     </service>
     <service id="security.exception_listener.main" class="Symfony\Component\Security\Http\Firewall\ExceptionListener" public="false">
       <argument type="service" id="security.token_storage"/>
@@ -4536,7 +4537,7 @@
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>iaqIaW2IR7</argument>
       <argument>0</argument>
-      <argument>sStp1IGKuNNiJYn15J5bUG</argument>
+      <argument>vrpUKxGMfIDq-avOmN0Q1m</argument>
       <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -4544,7 +4545,7 @@
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>XGqHqnpvZ6</argument>
       <argument>0</argument>
-      <argument>sStp1IGKuNNiJYn15J5bUG</argument>
+      <argument>vrpUKxGMfIDq-avOmN0Q1m</argument>
       <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -4552,7 +4553,7 @@
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>rwSwHHknCz</argument>
       <argument>0</argument>
-      <argument>sStp1IGKuNNiJYn15J5bUG</argument>
+      <argument>vrpUKxGMfIDq-avOmN0Q1m</argument>
       <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -4560,7 +4561,7 @@
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>YgG3fsqTyT</argument>
       <argument>0</argument>
-      <argument>sStp1IGKuNNiJYn15J5bUG</argument>
+      <argument>vrpUKxGMfIDq-avOmN0Q1m</argument>
       <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
