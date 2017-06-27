@@ -1,0 +1,30 @@
+esprit_famycity_homepage:
+    path:     /
+    defaults: { _controller: EspritFamycityBundle:Default:home }
+Layoutt:
+    path:     /layout
+    defaults: { _controller: EspritFamycityBundle:Default:layoutA }
+Login:
+    path:     /loginA
+    defaults: { _controller: EspritFamycityBundle:Default:loginA }
+
+Reclamation:
+    path:     /Reclamation
+    defaults: { _controller: EspritFamycityBundle:Reclamation:ajoutP }
+
+Reclamation2:
+    path:     /MesReclamations
+    defaults: { _controller: EspritFamycityBundle:Reclamation:Affichage }
+
+delete_Reclmation:
+    path:     /delete/{id}
+    defaults: { _controller: EspritFamycityBundle:Reclamation:Suppression }
+
+update_Reclamation:
+    path:     /update/{id}
+    defaults: { _controller: EspritFamycityBundle:Reclamation:Update  }
+
+Stat:
+    path:     /stat
+    defaults: { _controller: EspritFamycityBundle:Stat:index  }
+
