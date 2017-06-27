@@ -22,7 +22,7 @@ class Event
      */
     private $idEvent;
     /**
-     * @ORM\Column(name="categorie", type="string", columnDefinition="enum('parc', 'cirque','cinema')")
+     * @ORM\Column(name="categorie", type="string")
      */
     private $categorie;
     /**
