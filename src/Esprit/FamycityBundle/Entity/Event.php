@@ -7,9 +7,10 @@
  */
 
 namespace Esprit\FamycityBundle\Entity;
+use Esprit\FamycityBundle\Repository;
 use Doctrine\ORM\Mapping as ORM;
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Esprit\FamycityBundle\Repository\EventRepository")
  * @ORM\Table(name="event")
  */
 class Event

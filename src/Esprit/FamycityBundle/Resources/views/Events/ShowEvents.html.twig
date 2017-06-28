@@ -1,0 +1,20 @@
+<h1> list of events</h1>
+
+<table border="1">
+
+    <tr>
+        <th>id</th>
+        <th>categorie</th>
+        <th>cost</th>
+
+    </tr>
+
+    {% for events in e %}
+    <tr>
+
+        <td>{{ events.idEvent }}</td>
+        <td>{{ events.categorie }}</td>
+        <td>{{ events.cost }}</td>
+    </tr>
+    {% endfor %}
+</table>
