@@ -65,7 +65,7 @@ class Course
 
     /**
 
-     * @ORM\Column(type="date", name="courseDate")
+     * @ORM\Column(type="date", name="courseDay")
      */
     private $courseDate ;
 
