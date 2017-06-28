@@ -1,5 +1,5 @@
 esprit_famycity_homepage:
-    path:     /
+    path:     /home
     defaults: { _controller: EspritFamycityBundle:Default:home }
 Layoutt:
     path:     /layout

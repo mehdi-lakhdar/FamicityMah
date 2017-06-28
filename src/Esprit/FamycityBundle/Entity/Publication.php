@@ -8,11 +8,12 @@
 
 namespace Esprit\FamycityBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
+
 /**
  * @ORM\Entity
  * @ORM\Table(name="Publication")
  */
-class Publication
+class Publication implements \JsonSerializable
 
 {
     /**
@@ -232,8 +233,28 @@ class Publication
     function __toString()
     {
         // TODO: Implement __toString() method.
-        return $this->libelle ;
+        return $this->libelle."" ;
     }
 
 
+    /**
+     * Specify data which should be serialized to JSON
+     * @link http://php.net/manual/en/jsonserializable.jsonserialize.php
+     * @return mixed data which can be serialized by <b>json_encode</b>,
+     * which is a value of any type other than a resource.
+     * @since 5.4.0
+     */
+    function jsonSerialize()
+    {
+        // TODO: Implement jsonSerialize() method.
+        return[
+            'id' => $this->idPublication ,
+            'date' => $this->pubDate ,
+            'maker' =>$this->createur ,
+            'type' => $this->type ,
+            'libele' => $this->libelle ,
+            'imagesrc' => $this->imageSrc ,
+            'videosrc' => $this->videoSrc ,
+        ] ;
+    }
 }

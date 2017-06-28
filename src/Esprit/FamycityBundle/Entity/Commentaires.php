@@ -12,7 +12,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Entity
  * @ORM\Table(name="Commentaires")
  */
-class Commentaires
+class Commentaires implements  \JsonSerializable
 
 {
     /**
@@ -32,16 +32,25 @@ class Commentaires
      * @ORM\Column(type="string")
      */
     private $value;
+    /**
+     * @ORM\Column(type="date")
+     */
+    private $comDate;
+
+    /**
+     * @return mixed
+     */
+
 
     /**
      * Commentaires constructor.
-     * @param $idCom
+     * @param $id
      * @param $owner
      * @param $value
      */
-    public function __construct($idCom, $owner, $value)
+    public function __construct($id, $owner, $value)
     {
-        $this->idCom = $idCom;
+        $this->id = $id;
         $this->owner = $owner;
         $this->value = $value;
     }
@@ -55,9 +64,9 @@ class Commentaires
     }
 
     /**
-     * @param mixed $idCom
+     * @param mixed $id
      */
-    public function setIdCom($id)
+    public function setId($id)
     {
         $this->id = $id;
     }
@@ -94,11 +103,33 @@ class Commentaires
         $this->value = $value;
     }
 
+    public function getComDate()
+    {
+        return $this->comDate;
+    }
+
+    /**
+     * @param mixed $comDate
+     */
+    public function setComDate($comDate)
+    {
+        $this->comDate = $comDate;
+    }
     function __toString()
     {
         // TODO: Implement __toString() method.
-        return "Owner is ". $this->idCom . " Value is ". $this->value ;
+        return "Owner is ". $this->id . " Value is ". $this->value ;
     }
 
+    function jsonSerialize()
+    {
+        // TODO: Implement jsonSerialize() method.
+        return [
+            'id' => $this->id ,
+            'owner' =>$this->owner ,
+            'value' => $this->value ,
+            'date' => $this->comDate,
+        ];
+    }
 
 }

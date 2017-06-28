@@ -10,3 +10,6 @@ parameters:
     mailer_user: null
     mailer_password: null
     secret: 7e921ee2e954646ac1e8d9621ac47f6013f10df7
+    cors_allow_origin: 'http://localhost'
+    api_name: FamicityPi
+    api_description: 'API Project for Integration Project Validation Esprit 2017'
