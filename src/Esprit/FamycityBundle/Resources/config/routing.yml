@@ -28,7 +28,19 @@ Stat:
     path:     /stat
     defaults: { _controller: EspritFamycityBundle:Stat:index  }
 
+AjoutEvent:
+    path:     /addEvent
+    defaults: { _controller: EspritFamycityBundle:Event:addEvent }
 
 AfficheEvent:
     path:     /showEvent
     defaults: { _controller: EspritFamycityBundle:Event:findEventDQL }
+
+DeleteEvent:
+        path:     /showEvent
+        defaults: { _controller: EspritFamycityBundle:Event:findEventDQL }
+
+UpdateEvent:
+    path:     /showEvent
+    defaults: { _controller: EspritFamycityBundle:Event:findEventDQL }
+

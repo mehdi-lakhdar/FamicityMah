@@ -51,6 +51,20 @@ class Event
      */
     private $addUser;
 
+  /**
+     * Event constructor.
+   */
+    public function __construct()
+    {
+    }
+
+    function __toString()
+    {
+        return $this->categorie;
+    }
+
+
+
     /**
      * @return mixed
      */
