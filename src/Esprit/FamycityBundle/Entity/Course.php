@@ -47,7 +47,7 @@ class Course
     /**
      *
      * @ORM\OneToOne(targetEntity="User")
-     * @ORM\JoinColumn(name="createur", referencedColumnName="id")
+     *
      */
     private $createur ;
 
@@ -65,7 +65,7 @@ class Course
 
     /**
 
-     * @ORM\Column(type="date", name="courseDay")
+     * @ORM\Column(type="string",length=255)
      */
     private $courseDate ;
 

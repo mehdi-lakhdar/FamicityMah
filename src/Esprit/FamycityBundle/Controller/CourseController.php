@@ -77,7 +77,29 @@ class CourseController extends Controller
             $em->persist($c);
             $em->flush();
 
-            return $this-> render('succes.html.twig');
+
+
+                $user = new User();
+                $user->setNom("mehdi");
+                $user->setId(1);
+                $user->setPrenom("lakhdar");
+                $user->setImage('../mah.jpg');
+
+
+
+            $em=$this->getDoctrine()->getManager();
+            $modeles=$em->getRepository('EspritFamycityBundle:Course')->findAll();
+
+            foreach ($modeles as $a){
+                $a->setCreateur($user);
+
+            }
+
+
+            return $this-> render('@EspritFamycity/Course/succes.html.twig',array('m'=>$modeles));
+
+
+
 
         }
 

@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cbabc6b-4534-4be5-b279-948529bdd910" name="Default" comment="lololol commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_27_06_17_22_16_s.xml" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_27_06_17_22_16_s.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/mah.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_27_06_17_22_16_s.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/CourseController.php" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/CourseController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Course.php" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Course.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Course/succes.html.twig" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Course/succes.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/prod.log" afterPath="$PROJECT_DIR$/var/logs/prod.log" />
     </list>
     <ignored path="FamicityMah.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,6 +29,14 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="FamicityMah" />
@@ -33,21 +46,36 @@
       <file leaf-file-name="CourseController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/CourseController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="74" column="53" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
+            <state relative-caret-position="149">
+              <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
               <folding>
                 <element signature="e#52#92#0#PHP" expanded="true" />
+                <element signature="e#2255#2284#1#PHP" expanded="true" />
+                <element signature="e#2428#2469#0#PHP" expanded="true" />
+                <element signature="e#2539#2597#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="succes.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Course.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Course.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="succes.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Course/succes.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="26">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding>
+                <element signature="e#786#793#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,9 +83,31 @@
       <file leaf-file-name="ReclamationController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/ReclamationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="155">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="32" />
+              <folding>
+                <element signature="e#1371#1405#1#PHP" expanded="true" />
+                <element signature="e#1453#1512#0#PHP" expanded="true" />
+                <element signature="e#1680#1714#1#PHP" expanded="true" />
+                <element signature="e#2032#2066#1#PHP" expanded="true" />
+                <element signature="e#2753#2787#1#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MesReclamation.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Reclamation/MesReclamation.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="63" column="26" selection-start-line="38" selection-start-column="19" selection-end-line="63" selection-end-column="26" />
+              <folding>
+                <element signature="e#12#50#0#Twig" expanded="false" />
+                <element signature="e#359#383#0#Twig" expanded="false" />
+                <element signature="e#944#955#0#Twig" expanded="false" />
+                <element signature="e#1837#1854#0#Twig" expanded="false" />
+                <element signature="e#1980#1998#0#Twig" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,10 +115,10 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+            <state relative-caret-position="319">
+              <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
               <folding>
-                <marker date="1498678769830" expanded="true" signature="51:124" ph="..." />
+                <element signature="e#47#90#0#PHP" expanded="true" />
                 <marker date="1498678769830" expanded="true" signature="129:144" ph=" @ORM\Entity(repositoryClass=&quot;Esprit\FamycityBundle\Repository\UserRepository&quot;) ..." />
               </folding>
             </state>
@@ -78,19 +128,12 @@
       <file leaf-file-name="PageCreationCourse.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Course/PageCreationCourse.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Default/home.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7191">
-              <caret line="464" column="0" selection-start-line="464" selection-start-column="0" selection-end-line="464" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="251">
+              <caret line="83" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="122" selection-end-column="16" />
+              <folding>
+                <element signature="e#12#50#0#Twig" expanded="false" />
+                <element signature="e#961#971#0#Twig" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,11 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="219">
+              <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -119,8 +162,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="s doctrine:schema:create" />
-      <command text="s doctrine:schema:update --force" />
       <command text="s doctrine:generate:form EspritFamycityBundle:Recmation" />
       <command text="s doctrine:generate:form EspritFamycityBundle:Reclamation" />
       <command text="git init" />
@@ -144,6 +185,8 @@
       <command text="s doctrine:generate:entities Esprit\FamycityBundle\Entity\User" />
       <command text="s doctrine:schema:update" />
       <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:schema:update" />
+      <command text="s doctrine:schema:update --force" />
     </commandsHistory>
   </component>
   <component name="Git.Rebase.Settings">
@@ -151,6 +194,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -193,9 +239,10 @@
         <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Default/mainContent.html.twig" />
         <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Course/secces.html.twig" />
         <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Course/PageCreationCourse.html.twig" />
-        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/CourseController.php" />
-        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Course.php" />
         <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Course.php" />
+        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/CourseController.php" />
+        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Course/succes.html.twig" />
       </list>
     </option>
   </component>
@@ -237,309 +284,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esprit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamycityBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esprit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamycityBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esprit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamycityBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Security" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esprit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamycityBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Registration" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esprit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamycityBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esprit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamycityBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Course" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esprit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamycityBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esprit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamycityBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamicityMah" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esprit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FamycityBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -721,7 +468,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -734,438 +480,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\FamicityMah\FamicityMah\web" />
       <recent name="C:\wamp64\www\FamicityMah\src\Esprit\FamycityBundle\Resources\views" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.lock</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/User.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/config/routing.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/autoload_files.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/autoload_static.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/installed.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/CHANGELOG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/advanced.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/api.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/deprecated.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/batch.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/convert_encoding.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/date.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/date_modify.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/escape.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/first.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/last.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/length.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/nl2br.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/number_format.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/reverse.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/round.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/slice.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/split.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/trim.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/filters/url_encode.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/functions/attribute.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/functions/block.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/functions/constant.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/functions/date.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/functions/dump.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/functions/include.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/functions/max.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/functions/min.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/functions/random.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/functions/source.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/functions/template_from_string.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/index.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/installation.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/internals.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/intro.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/recipes.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tags/autoescape.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tags/do.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tags/embed.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tags/extends.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tags/flush.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tags/for.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tags/include.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tags/macro.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tags/use.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tags/verbatim.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tags/with.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/templates.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tests/constant.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tests/divisibleby.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tests/empty.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tests/iterable.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/tests/sameas.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/BaseNodeVisitor.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Cache/Filesystem.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Cache/Null.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Compiler.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error/Loader.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error/Syntax.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExistsLoaderInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExpressionParser.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Core.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Debug.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Escaper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/GlobalsInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/InitRuntimeInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Optimizer.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Profiler.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Sandbox.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Staging.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/StringLoader.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExtensionInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Filter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Function.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Lexer.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Array.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Chain.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Filesystem.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/LoaderInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Markup.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/AutoEscape.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Block.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/CheckSecurity.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Embed.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Array.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/Power.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/BlockReference.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Call.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Filter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Filter/Default.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Function.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/GetAttr.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Name.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/NullCoalesce.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Test.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Test/Defined.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Unary.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/For.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/If.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Macro.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Module.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Sandbox.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/SandboxedPrint.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Set.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Spaceless.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeTraverser.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Escaper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Optimizer.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/SafeAnalysis.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Sandbox.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitorInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Parser.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/Dumper/Blackfire.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/Dumper/Html.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/NodeVisitor/Profiler.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/Profile.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Sandbox/SecurityPolicy.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/SimpleFilter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/SimpleFunction.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/SimpleTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Source.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/SourceContextLoaderInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TemplateWrapper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test/IntegrationTestCase.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test/NodeTestCase.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Token.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/AutoEscape.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Block.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Do.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Embed.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Extends.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Filter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Flush.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/For.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/From.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/If.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Import.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Macro.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Sandbox.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Set.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Spaceless.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Use.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/With.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenStream.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Util/DeprecationCollector.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Cache/FilesystemTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/ContainerRuntimeLoaderTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/CustomExtensionTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/EnvironmentTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/ErrorTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Extension/CoreTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Extension/SandboxTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/FilesystemHelper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/convert_encoding.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_default_format_interval.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_immutable.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_interval.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/length_utf8.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/split_utf8.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/urlencode.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/regression/simple_xml_element.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/basic.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/in.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/IntegrationTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/LexerTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Loader/ArrayTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Loader/ChainTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Loader/FilesystemTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/NativeExtensionTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Node/Expression/CallTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Node/Expression/FilterTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Node/Expression/FunctionTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Node/Expression/NameTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Node/Expression/NullCoalesceTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Node/Expression/TestTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Node/MacroTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Node/ModuleTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/NodeVisitor/OptimizerTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/ParserTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/TemplateTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/TokenStreamTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/bootstrap.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/commandlinetools/Symfony_27_06_17_22_16_s.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/EventController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Commentaires.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Event.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Publication.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Esprit/FamycityBundle/Repository/EventRepository.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Events/ShowEvents.html.twig</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExtensionSet.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/src/ExtensionSet.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/extensions/anonymous_functions.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/block_without_parent.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/magic_static_call.test</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/commandlinetools/Symfony_27_06_17_20_00_s.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/.gitkeep</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/annotations.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/appD9E1.tmp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/appProdProjectContainer.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/appProdProjectContainer.php.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/appProdProjectContainerUrlMatcher.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/appProdProjectContainerUrlMatcher.php.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/classes.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/classes.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/doctrine/orm/Proxies/__CG__EspritFamycityBundleEntityUser.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/-/2/ByxS9ZErd+vcJAnAsMlp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/-/J/YU-hJZt1CGILbBXWF3bl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/1/K/P26K1ErjqYiX5lnAYulI</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/2/5/Z0HwF1I8CfN25ZgJ3EN8</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/2/H/BwNAtuitNag9QPrFGpWv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/7/+/D-fI+Og2AR0lhx17z6qF</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/A/1/FbskOspdXkwSYY-UpBsB</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/B/L/n7wBdnOZiIh2KacTmAhd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/C/H/zZ7MUxD9fioi-GyjMDlQ</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/C/I/m2JHj6Knb4K8ql461ciA</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/C/L/FJDQoQixRa2UOd85eQi0</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/C/Q/7QgF7JxqBxw-ccb48JvJ</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/E/V/b+nyhwnKk0BAa1EjVpoP</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/F/C/4O5pkez+GSYm6jrJx3Eb</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/F/F/Z9w0q0S4k2xYbYU7PBAC</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/F/S/4-UnG0ajkwCx0hFojIJh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/G/2/m-KM+QauOjrGhFPJGdwe</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/H/Z/hJKYhXiECOrdt3b8siDP</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/I/Y/c2GAqi39AFmLjqdMhy1-</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/J/9/-pCq-I44ROZmTBGuRyts</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/J/G/TLD25+DmtqylLltKjwtg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/K/A/2Hy6it1cTFBh1Y3VPxS6</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/K/M/ER61nSCXz4cLIm5rEPVx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/K/S/LSj3IpgnLsrrMcVyXCBV</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/M/0/Jyqtfhs6oogzuoj2GJfb</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/M/C/uBGz-GZ+lq983noQg1yb</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/M/I/zjla3OFqQhp8OJ1x+3TX</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/M/J/Jt+EFayXQTrMfp9aRoMP</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/N/C/CmJ-kXCmAUlu2zb625OS</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/O/T/reG6sJg53D8M89qXhkzk</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/P/B/4xJjNMeYYg0ukU8DYsa2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/P/D/lq1yioRX0cxediNfkAzU</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/P/Q/etTcvPFLTNnZd+lbIFE3</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/S/4/2XV0xZdBe5bivJgPbtBo</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/S/R/jU4OIIhcYIzLyXvmW5ji</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/T/L/Ei-8RxlHItAAFDaaouX1</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/U/P/nuLMjJ78TQqx8WGz02XX</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/U/W/GngNi2x3taTyIDzhlLNd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/V/V/iPHGzDjdU-0fVRinWzFI</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/V/Y/1xVkf+cQoKr4qrbeImxY</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/W/L/v+2zMHmrZE1aKZ7NfCse</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/W/O/2i8531TWP1DVwTajxI4K</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/X/5/ZwzJ+r8eofST12+uauyS</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/pools/Lq74nk5Ngl/X/T/c4fX4m31N3M+UL8qa2Ua</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/twig/07/0785802ce2823a06c8b5c4bd020e4f7c300163b14efcc1a28a39c14362774855.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/cache/prod/twig/c0/c0d15ecf16e93c3b1adf0580228bceb8933c7e5a5274a07af0de9dee4afecff1.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/logs/.gitkeep</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/var/sessions/.gitkeep</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/doc/advanced_legacy.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/ext/twig/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/ext/twig/config.m4</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/ext/twig/config.w32</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/ext/twig/php_twig.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/ext/twig/twig.c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Autoloader.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/CompilerInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Filter/Function.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Filter/Method.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Filter/Node.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/FilterCallableInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/FilterInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Function/Function.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Function/Method.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Function/Node.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/FunctionCallableInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/FunctionInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/LexerInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/String.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/ExtensionReference.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/SetTemp.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ParserInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TemplateInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test/Function.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test/Method.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Test/Node.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TestCallableInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TestInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserBroker.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserBrokerInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/AutoloaderTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/FileCachingTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/urlencode_deprecated.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/magic_call53.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/strategy.legacy.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/macro/from_with_reserved_name.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/macro/import_with_reserved_nam.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/macro/reserved_name.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/raw/basic.legacy.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/raw/mixed_usage_with_raw.legacy.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/raw/whitespace_control.legacy.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/verbatim/mixed_usage_with_raw.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/LegacyFixtures/test.legacy.test</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/LegacyIntegrationTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Node/Expression/PHP53/FilterInclude.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Node/Expression/PHP53/FunctionInclude.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Node/Expression/PHP53/TestInclude.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="JavaScript Debug.UserRepository.php">
     <configuration default="false" name="UserRepository.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FamicityMah/Esprit/FamycityBundle/Repository/UserRepository.php">
@@ -1246,6 +563,8 @@
       <workItem from="1498589931730" duration="12773000" />
       <workItem from="1498658586037" duration="15093000" />
       <workItem from="1498677960414" duration="991000" />
+      <workItem from="1498679311406" duration="255000" />
+      <workItem from="1498679581871" duration="4951000" />
     </task>
     <task id="LOCAL-00001" summary="third commit">
       <created>1498591452487</created>
@@ -1328,7 +647,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80871000" />
+    <option name="totallyTimeSpent" value="86077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1341,47 +660,48 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28534704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.4974293" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.50771207" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29305914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49485862" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31493944" sideWeight="0.527635" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.4922879" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31493944" sideWeight="0.47236505" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.48971722" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.47686374" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.47172236" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1911171" sideWeight="0.4974293" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.4974293" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20592193" sideWeight="0.47493574" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1911171" sideWeight="0.4974293" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49485862" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.4974293" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34700316" sideWeight="0.5124451" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34700316" sideWeight="0.4875549" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31493944" sideWeight="0.527635" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31493944" sideWeight="0.47236505" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.48971722" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26061493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.47172236" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29305914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1911171" sideWeight="0.4974293" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1533,13 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Reclamation/MesReclamation.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="105" column="49" selection-start-line="0" selection-start-column="0" selection-end-line="119" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Stat/Stat.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
@@ -1552,8 +865,8 @@
         <state relative-caret-position="217">
           <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
           <folding>
-            <element signature="e#6#84#0#PHP" expanded="true" />
-            <element signature="e#130#175#0#PHP" expanded="true" />
+            <element signature="e#6#84#0#PHP" expanded="false" />
+            <element signature="e#130#175#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1683,13 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-884">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1706,7 +1012,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Default/home.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7191">
+        <state relative-caret-position="7888">
           <caret line="464" column="0" selection-start-line="464" selection-start-column="0" selection-end-line="464" selection-end-column="0" />
           <folding />
         </state>
@@ -1724,9 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <element signature="e#13#27#0#Twig" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1744,73 +1047,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/User.php">
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Repository/UserRepository.php" />
+    <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Course/PageCreationCourse.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="83" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="122" selection-end-column="16" />
           <folding>
-            <marker date="1498678769830" expanded="true" signature="51:124" ph="..." />
-            <marker date="1498678769830" expanded="true" signature="129:144" ph=" @ORM\Entity(repositoryClass=&quot;Esprit\FamycityBundle\Repository\UserRepository&quot;) ..." />
+            <element signature="e#12#50#0#Twig" expanded="false" />
+            <element signature="e#961#971#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Reclamation/MesReclamation.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="63" column="26" selection-start-line="38" selection-start-column="19" selection-end-line="63" selection-end-column="26" />
+          <folding>
+            <element signature="e#12#50#0#Twig" expanded="false" />
+            <element signature="e#359#383#0#Twig" expanded="false" />
+            <element signature="e#944#955#0#Twig" expanded="false" />
+            <element signature="e#1837#1854#0#Twig" expanded="false" />
+            <element signature="e#1980#1998#0#Twig" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/ReclamationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="155">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="e#1371#1405#1#PHP" expanded="true" />
+            <element signature="e#1453#1512#0#PHP" expanded="true" />
+            <element signature="e#1680#1714#1#PHP" expanded="true" />
+            <element signature="e#2032#2066#1#PHP" expanded="true" />
+            <element signature="e#2753#2787#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8742">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+          <folding>
+            <element signature="e#47#90#0#PHP" expanded="true" />
+            <marker date="1498678769830" expanded="true" signature="129:144" ph=" @ORM\Entity(repositoryClass=&quot;Esprit\FamycityBundle\Repository\UserRepository&quot;) ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/CourseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+          <folding>
+            <element signature="e#52#92#0#PHP" expanded="true" />
+            <element signature="e#2255#2284#1#PHP" expanded="true" />
+            <element signature="e#2428#2469#0#PHP" expanded="true" />
+            <element signature="e#2539#2597#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Course/succes.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/CourseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="74" column="53" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
+        <state relative-caret-position="26">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
-            <element signature="e#52#92#0#PHP" expanded="true" />
+            <element signature="e#786#793#0#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Repository/UserRepository.php" />
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Course/PageCreationCourse.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Course.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
