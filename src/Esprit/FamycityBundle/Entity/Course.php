@@ -63,7 +63,20 @@ class Course
 
 
 
+    /**
 
+     * @ORM\Column(type="date", name="courseDate")
+     */
+    private $courseDate ;
+
+
+
+
+    /**
+
+     * @ORM\Column(type="string",length=512)
+     */
+    private $adresse;
 
 
 
@@ -161,6 +174,38 @@ class Course
     public function setCoursier($coursier)
     {
         $this->coursier = $coursier;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCourseDate()
+    {
+        return $this->courseDate;
+    }
+
+    /**
+     * @param mixed $courseDate
+     */
+    public function setCourseDate($courseDate)
+    {
+        $this->courseDate = $courseDate;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAdresse()
+    {
+        return $this->adresse;
+    }
+
+    /**
+     * @param mixed $adresse
+     */
+    public function setAdresse($adresse)
+    {
+        $this->adresse = $adresse;
     }
 
 
