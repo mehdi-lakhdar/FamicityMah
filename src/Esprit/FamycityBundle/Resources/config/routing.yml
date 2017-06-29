@@ -32,6 +32,18 @@ savecourse:
     path:     /savecourse
     defaults: { _controller: EspritFamycityBundle:Course:ajoutCourse }
 
+affichiercourse:
+    path:     /affichiercourse
+    defaults: { _controller: EspritFamycityBundle:Course:afficherCourse }
+
+
+affichiercourseValid:
+    path:     /affichiercourseValid
+    defaults: { _controller: EspritFamycityBundle:Course:afficherCourseValider }
+
+takecourse:
+    path:     /takecourse/{idCourse}
+    defaults: { _controller: EspritFamycityBundle:Course:takeCourse }
 
 
 Stat:
