@@ -12,7 +12,7 @@ use Doctrine\ORM\Mapping as ORM ;
 
 
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Esprit\FamycityBundle\Repository\CourseRepository")
  * @ORM\Table(name="Course")
  */
 class Course
@@ -46,8 +46,8 @@ class Course
 
     /**
      *
-     * @ORM\OneToOne(targetEntity="User")
-     *
+     * @ORM\ManyToOne(targetEntity="User" , inversedBy="$coursesCree")
+     * @ORM\JoinColumn(name="createur", referencedColumnName="id")
      */
     private $createur ;
 
@@ -55,7 +55,7 @@ class Course
 
     /**
      *
-     * @ORM\OneToOne(targetEntity="User")
+     * @ORM\ManyToOne(targetEntity="User" , inversedBy="coursesValider")
      * @ORM\JoinColumn(name="coursier", referencedColumnName="id")
      */
     private $coursier ;
@@ -77,6 +77,14 @@ class Course
      * @ORM\Column(type="string",length=512)
      */
     private $adresse;
+
+
+
+    /**
+
+     * @ORM\Column(type="string",length=512)
+     */
+    private $status;
 
 
 
@@ -206,6 +214,22 @@ class Course
     public function setAdresse($adresse)
     {
         $this->adresse = $adresse;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getStatus()
+    {
+        return $this->status;
+    }
+
+    /**
+     * @param mixed $status
+     */
+    public function setStatus($status)
+    {
+        $this->status = $status;
     }
 
 
