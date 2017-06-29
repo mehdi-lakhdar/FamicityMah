@@ -24,6 +24,16 @@ update_Reclamation:
     path:     /update/{id}
     defaults: { _controller: EspritFamycityBundle:Reclamation:Update  }
 
+CreeCourse:
+    path:     /CreeCourse
+    defaults: { _controller: EspritFamycityBundle:Course:affichePageCreate }
+
+savecourse:
+    path:     /savecourse
+    defaults: { _controller: EspritFamycityBundle:Course:ajoutCourse }
+
+
+
 Stat:
     path:     /stat
     defaults: { _controller: EspritFamycityBundle:Stat:index  }
