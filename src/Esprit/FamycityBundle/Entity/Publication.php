@@ -1,90 +1,77 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: LeNovo
- * Date: 27/06/2017
- * Time: 23:44
+ * User: mohamed
+ * Date: 29/06/2017
+ * Time: 08:51
  */
 
 namespace Esprit\FamycityBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
+use JMS\Serializer\Annotation as JMSSerializer;
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Esprit\FamycityBundle\Repository\PublicationRepository")
  * @ORM\Table(name="Publication")
+ * @JMSSerializer\ExclusionPolicy("all")
  */
-class Publication implements \JsonSerializable
-
+class Publication  implements \JsonSerializable
 {
     /**
      * @ORM\Id
      * @ORM\Column(type="integer")
      * @ORM\GeneratedValue(strategy="AUTO")
+     * @JMSSerializer\Expose
      */
     private $idPublication;
     /**
      * @ORM\Column(name="categorie", type="string")
+     * @JMSSerializer\Expose
      */
     private $type;
     /**
      * @ORM\Column(type="date")
+     * @JMSSerializer\Expose
      */
     private $pubDate;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string")
+     * @JMSSerializer\Expose
      */
     private $libelle;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string")
+     * @JMSSerializer\Expose
      */
     private $imageSrc;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string")
+     * @JMSSerializer\Expose
      */
     private $videoSrc;
 
     /**
      * @ORM\ManyToOne(targetEntity="User")
+     * @JMSSerializer\Expose
      */
     private $participants;
 
     /**
      * @ORM\ManyToOne(targetEntity="Commentaires")
+     * @JMSSerializer\Expose
      */
     private $comments;
 
     /**
      * @ORM\OneToOne(targetEntity="User")
+     * @JMSSerializer\Expose
      */
     private $createur;
 
-    /**
-     * Publication constructor.
-     * @param $idPublication
-     * @param $type
-     * @param $pubDate
-     * @param $libelle
-     * @param $imageSrc
-     * @param $videoSrc
-     * @param $participants
-     * @param $comments
-     * @param $createur
-     */
-    public function __construct($idPublication, $type, $pubDate, $libelle, $imageSrc, $videoSrc, $participants, $comments, $createur)
-    {
-        $this->idPublication = $idPublication;
-        $this->type = $type;
-        $this->pubDate = $pubDate;
-        $this->libelle = $libelle;
-        $this->imageSrc = $imageSrc;
-        $this->videoSrc = $videoSrc;
-        $this->participants = $participants;
-        $this->comments = $comments;
-        $this->createur = $createur;
-    }
+
 
     /**
      * @return mixed
@@ -236,7 +223,6 @@ class Publication implements \JsonSerializable
         return $this->libelle."" ;
     }
 
-
     /**
      * Specify data which should be serialized to JSON
      * @link http://php.net/manual/en/jsonserializable.jsonserialize.php
@@ -247,14 +233,5 @@ class Publication implements \JsonSerializable
     function jsonSerialize()
     {
         // TODO: Implement jsonSerialize() method.
-        return[
-            'id' => $this->idPublication ,
-            'date' => $this->pubDate ,
-            'maker' =>$this->createur ,
-            'type' => $this->type ,
-            'libele' => $this->libelle ,
-            'imagesrc' => $this->imageSrc ,
-            'videosrc' => $this->videoSrc ,
-        ] ;
     }
 }

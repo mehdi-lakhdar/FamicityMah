@@ -1,11 +1,11 @@
 esprit_famycity_homepage:
-    path:     /home
+    path:     /
     defaults: { _controller: EspritFamycityBundle:Default:home }
 Layoutt:
     path:     /layout
     defaults: { _controller: EspritFamycityBundle:Default:layoutA }
 Login:
-    path:     /loginA
+    path:     /login
     defaults: { _controller: EspritFamycityBundle:Default:loginA }
 
 Reclamation:
