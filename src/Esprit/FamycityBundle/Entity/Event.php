@@ -7,7 +7,7 @@
  */
 
 namespace Esprit\FamycityBundle\Entity;
-use Esprit\FamycityBundle\Repository;
+
 use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity(repositoryClass="Esprit\FamycityBundle\Repository\EventRepository")
@@ -27,11 +27,11 @@ class Event
      */
     private $categorie;
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="date", nullable=true)
      */
     private $dateDebut;
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="date", nullable=true)
      */
     private $dateFin;
     /**

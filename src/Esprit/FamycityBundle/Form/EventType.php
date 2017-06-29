@@ -2,7 +2,7 @@
 
 namespace Esprit\FamycityBundle\Form;
 
-use Esprit\FamycityBundle\Entity\User;
+
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -15,12 +15,20 @@ class EventType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('categorie')->add('libelle')->add('cost')
+        $builder->add('categorie')
+
+
+
+
+
+            ->add('libelle')->add('cost')
            /* ->add('participants',CollectionType::class,
                 array('entry_type'   => User::class,
                     'entry_options'  => array('attr' => array('class' => 'id'))))
 
-            ->add('addUser') ->setMethod('GET')
+
+
+            ->setMethod('GET')
            ->add('dateDebut',DateType::class)
 
            ->add('dateFin',DateType::class)

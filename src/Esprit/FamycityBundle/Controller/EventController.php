@@ -8,9 +8,7 @@
 
 namespace Esprit\FamycityBundle\Controller;
 use Esprit\FamycityBundle\Entity;
-use Esprit\FamycityBundle\Form\EventForm;
 use Esprit\FamycityBundle\Form\EventType;
-use Esprit\FamycityBundle\Repository;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -36,5 +34,74 @@ public function addEventAction(Request $request)
  }
  return $this->render("@EspritFamycity/Events/AddEvent.html.twig",array('form'=>$form->createView()));
 }
+
+
+    public function addEventsAction()
+    {
+
+        return $this->render("@EspritFamycity/Events/AddEvent2.html.twig");
+    }
+
+
+    public function persistEventAction(Request $request){
+
+
+
+        if ($request->getMethod() == Request::METHOD_POST) {
+            $name = $request->request->get('libelle');
+            $budget = $request->request->get('cost');
+            $description = $request->request->get('categorie');
+
+            $date = $request->request->get('date');
+
+
+
+
+            $c = new Entity\Event();
+
+            $c->setLibelle($name);
+            $c->setCategorie($description);
+            $c->setCost($budget);
+
+            $c->setDateDebut($date);
+            $c->setDateFin($date);
+            $em = $this->getDoctrine()->getManager();
+
+            $em->persist($c);
+            $em->flush();
+
+
+
+            $user = new Entity\User();
+            $user->setNom("ons");
+            $user->setId(2);
+            $user->setPrenom("mm");
+            $user->setImage('../logo.png');
+
+
+
+            $em=$this->getDoctrine()->getManager();
+            $modeles=$em->getRepository('EspritFamycityBundle:Event')->findAll();
+
+            foreach ($modeles as $a){
+                $a->setAddUser($user);
+
+            }
+
+
+            return $this-> render('@EspritFamycity/Events/Result.html.twig',array('m'=>$modeles));
+
+
+
+
+        }
+
+
+        return $this-> render('EspritFamycityBundle:Events:ShowEvents.html.twig');
+
+
+
+
+    }
 
 }

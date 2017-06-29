@@ -42,15 +42,22 @@ AjoutEvent:
     path:     /addEvent
     defaults: { _controller: EspritFamycityBundle:Event:addEvent }
 
+AjoutEvents:
+        path:     /addEvents
+        defaults: { _controller: EspritFamycityBundle:Event:addEvents }
+
 AfficheEvent:
     path:     /showEvent
     defaults: { _controller: EspritFamycityBundle:Event:findEventDQL }
 
 DeleteEvent:
-        path:     /showEvent
+        path:   /showEvent
         defaults: { _controller: EspritFamycityBundle:Event:findEventDQL }
 
 UpdateEvent:
     path:     /showEvent
     defaults: { _controller: EspritFamycityBundle:Event:findEventDQL }
 
+persistEvent:
+    path:     /persistEvent
+    defaults: { _controller: EspritFamycityBundle:Event:persistEvent }
