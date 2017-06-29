@@ -19,6 +19,13 @@ class AppKernel extends Kernel
             new Esprit\FamycityBundle\EspritFamycityBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new Ob\HighchartsBundle\ObHighchartsBundle(),
+            new FOS\RestBundle\FOSRestBundle(),
+            new Nelmio\CorsBundle\NelmioCorsBundle(),
+            new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle(),
+            new Bazinga\Bundle\FakerBundle\BazingaFakerBundle()
+
+
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

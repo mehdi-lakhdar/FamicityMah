@@ -9,65 +9,64 @@
 namespace Esprit\FamycityBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
-use JMS\Serializer\Annotation as JMSSerializer;
+
 /**
- * @ORM\Entity(repositoryClass="Esprit\FamycityBundle\Repository\PublicationRepository")
+ * @ORM\Entity(repositoryClass="Esprit\FamycityBundle\Repository\TimeLineRepository")
  * @ORM\Table(name="Publication")
- * @JMSSerializer\ExclusionPolicy("all")
+ *
  */
-class Publication  implements \JsonSerializable
+class TimeLinePostes
 {
     /**
      * @ORM\Id
      * @ORM\Column(type="integer")
      * @ORM\GeneratedValue(strategy="AUTO")
-     * @JMSSerializer\Expose
      */
     private $idPublication;
     /**
      * @ORM\Column(name="categorie", type="string")
-     * @JMSSerializer\Expose
+     *
      */
     private $type;
     /**
      * @ORM\Column(type="date")
-     * @JMSSerializer\Expose
+     *
      */
     private $pubDate;
 
     /**
      * @ORM\Column(type="string")
-     * @JMSSerializer\Expose
+     *
      */
     private $libelle;
 
     /**
      * @ORM\Column(type="string")
-     * @JMSSerializer\Expose
+     *
      */
     private $imageSrc;
 
     /**
      * @ORM\Column(type="string")
-     * @JMSSerializer\Expose
+     *
      */
     private $videoSrc;
 
     /**
      * @ORM\ManyToOne(targetEntity="User")
-     * @JMSSerializer\Expose
+     *
      */
     private $participants;
 
     /**
      * @ORM\ManyToOne(targetEntity="Commentaires")
-     * @JMSSerializer\Expose
+     *
      */
     private $comments;
 
     /**
      * @ORM\OneToOne(targetEntity="User")
-     * @JMSSerializer\Expose
+     *
      */
     private $createur;
 
@@ -223,15 +222,5 @@ class Publication  implements \JsonSerializable
         return $this->libelle."" ;
     }
 
-    /**
-     * Specify data which should be serialized to JSON
-     * @link http://php.net/manual/en/jsonserializable.jsonserialize.php
-     * @return mixed data which can be serialized by <b>json_encode</b>,
-     * which is a value of any type other than a resource.
-     * @since 5.4.0
-     */
-    function jsonSerialize()
-    {
-        // TODO: Implement jsonSerialize() method.
-    }
+
 }

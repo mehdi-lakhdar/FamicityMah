@@ -33,6 +33,21 @@ class User extends BaseUser
         $this->id = $id;
     }
 
+
+
+    /**
+     * @ORM\OneToMany(targetEntity="Course" , mappedBy="User")
+     */
+    private $coursesCree ;
+
+
+
+    /**
+     * @ORM\OneToMany(targetEntity="Course" , mappedBy="User")
+     */
+    private $coursesValider ;
+
+
     /**
      * @return mixed
      */
@@ -96,5 +111,25 @@ class User extends BaseUser
 
 
     private $image;
+
+    /**
+     * @return mixed
+     */
+    public function getCourses()
+    {
+        return $this->courses;
+    }
+
+    /**
+     * @param mixed $courses
+     */
+    public function setCourses($courses)
+    {
+        $this->courses = $courses;
+    }
+
+
+
+
 
 }
