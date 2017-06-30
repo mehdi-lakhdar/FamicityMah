@@ -57,11 +57,12 @@
                                               <li>Adresse : <a href="#">{{ i.adresse }} <span class="pull-right badge bg-aqua"></span></a></li>
                                               <li>Date :<a href="#">{{ i.courseDate }} <span class="pull-right badge bg-green"></span></a></li>
                                               <li>Status<a href="#">{{ i.status }} <span class="pull-right badge bg-blue"></span></a></li>
+                                              <li>En Charge Par<a href="#">{{ i.coursier.nom }} <span class="pull-right badge bg-blue"></span></a></li>
 
                                               <li>Description<a href="#">{{ i.description }} <span class="pull-right badge bg-blue"></span></a></li>
 
 
-                                              <a href="{{ path('takecourse',{'idCourse':i.idCourse})}}"><button type="button" class="btn btn-block btn-primary">Prendre en Charge</button></a>
+
                                           </ul>
                                       </div>
                                   </div>

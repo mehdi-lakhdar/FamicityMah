@@ -10,6 +10,14 @@ class DefaultController extends Controller
     {
         return $this->render('@EspritFamycity/Default/home.html.twig');
     }
+    public function interAdminAAction()
+    {
+        return $this->render('@EspritFamycity/InterAdmin.html.twig');
+    }
+    public function interUserAction()
+    {
+        return $this->render('@EspritFamycity/interUser.html.twig');
+    }
     public function layoutAAction()
     {
         return $this->render('@EspritFamycity/layout.html.twig');
@@ -18,7 +26,9 @@ class DefaultController extends Controller
     {
         return $this->render('@EspritFamycity/Security/login.html.twig');
     }
-    public function getParent(){
-        return 'FOSUserBundle';
+    public function ProfileFrontAction()
+    {
+        return $this->render('@EspritFamycity/GestionUtilisateurFront/ProfileFront.html.twig');
     }
+
 }

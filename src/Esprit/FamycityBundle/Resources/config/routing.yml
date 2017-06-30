@@ -1,13 +1,34 @@
 esprit_famycity_homepage:
     path:     /
     defaults: { _controller: EspritFamycityBundle:Default:home }
+interAdmin:
+    path:     /fam/interAdmin
+    defaults: { _controller: EspritFamycityBundle:Default:interAdminA }
+interUser:
+    path:     /fam/interUser
+    defaults: { _controller: EspritFamycityBundle:Default:interUser}
 Layoutt:
     path:     /layout
     defaults: { _controller: EspritFamycityBundle:Default:layoutA }
 Login:
-    path:     /login
+    path:     /loginA
     defaults: { _controller: EspritFamycityBundle:Default:loginA }
 
+AjoutM:
+    path:     /AjoutMe
+    defaults: { _controller: EspritFamycityBundle:User:ajoutP}
+AfficheM:
+    path:     /Affmemmbre
+    defaults: { _controller: EspritFamycityBundle:Famille:Affiche}
+Ajouter:
+    path:     /Ajouter
+    defaults: { _controller: EspritFamycityBundle:Famille:Ajouter}
+Modifier:
+    path:     /Modifier/{id}
+    defaults: { _controller: EspritFamycityBundle:Famille:Modifier}
+Suprimer:
+    path:     /Suprimer/{id}
+    defaults: { _controller: EspritFamycityBundle:Famille:Suprimer}
 Reclamation:
     path:     /Reclamation
     defaults: { _controller: EspritFamycityBundle:Reclamation:ajoutP }
@@ -23,6 +44,9 @@ delete_Reclmation:
 update_Reclamation:
     path:     /update/{id}
     defaults: { _controller: EspritFamycityBundle:Reclamation:Update  }
+
+
+
 
 CreeCourse:
     path:     /CreeCourse
@@ -41,38 +65,87 @@ affichiercourseValid:
     path:     /affichiercourseValid
     defaults: { _controller: EspritFamycityBundle:Course:afficherCourseValider }
 
+affichiercourseAuthorized:
+    path:     /affichiercourseAuthorized
+    defaults: { _controller: EspritFamycityBundle:Course:afficherCourseAuthorizedr }
+
+
+affichierMesCourseEncours:
+    path:     /affichierMesCourseEncours
+    defaults: { _controller: EspritFamycityBundle:Course:afficherMesCourseEncours }
+
 takecourse:
     path:     /takecourse/{idCourse}
     defaults: { _controller: EspritFamycityBundle:Course:takeCourse }
+
+
+deleteCourse:
+    path:     /deleteCourse/{idCourse}
+    defaults: { _controller: EspritFamycityBundle:Course:deleteCourse }
+
+finircourse:
+    path:     /finircourse/{idCourse}
+    defaults: { _controller: EspritFamycityBundle:Course:finirCourse }
+
+
+generatePdf:
+    path:     /generatePdf
+    defaults: { _controller: EspritFamycityBundle:Course:generatePdf }
+
+
+courseStat:
+    path:     /courseStat
+    defaults: { _controller: EspritFamycityBundle:Course:statistiqueCourse }
 
 
 Stat:
     path:     /stat
     defaults: { _controller: EspritFamycityBundle:Stat:index  }
 
+AjoutEvents:
+        path:     /addEvents
+        defaults: { _controller: EspritFamycityBundle:Event:addEvents }
 
 AfficheEvent:
     path:     /showEvent
     defaults: { _controller: EspritFamycityBundle:Event:findEventDQL }
 
-TimeLine:
-    path:     /Acceuil
-    defaults: { _controller: EspritFamycityBundle:TimeLinePosts:timeLine }
-likePost:
-    path:     /likePost/{idPost}
-    defaults: {_controller: EspritFamycityBundle:TimeLinePosts:likePost}
-CommentPost:
-    path:     /Comment/{idPost}
-    defaults: {_controller: EspritFamycityBundle:TimeLinePosts:commentPubTimeLine}
-getSinglePost:
-    path:     /singlePost/{idPost}
-    defaults: {_controller: EspritFamycityBundle:TimeLinePosts:getPub}
-deleteSinglePost:
-    path:     /deleteSinglePost/{idPost}
-    defaults: {_controller: EspritFamycityBundle:TimeLinePosts:deletePub}
-editSinglePost:
-    path: /editSinglePost/{idPost}
-    defaults: {_controller: EspritFamycityBundle:TimeLinePosts:editSinglePost}
-editSinglePostShow:
-    path: /editSinglePostFStep/{idPost}
-    defaults: {_controller: EspritFamycityBundle:TimeLinePosts:loadPubToEdit}
+
+ProfileFront:
+    path:     /ProfileFront
+    defaults: { _controller: EspritFamycityBundle:Default:ProfileFront}
+AfficheFront:
+    path:     /AffmemmbreFront
+    defaults: { _controller: EspritFamycityBundle:Famille:AfficheFront}
+AjoutFront:
+    path:     /AjoutFront
+    defaults: { _controller: EspritFamycityBundle:Famille:AjouterFront}
+ModifierFront:
+    path:     /ModifierFront/{id}
+    defaults: { _controller: EspritFamycityBundle:Famille:ModifierFront}
+SuprimerFront:
+    path:     /SuprimerFront/{id}
+    defaults: { _controller: EspritFamycityBundle:Famille:SuprimerFront}
+DeleteEvent:
+        path:   /deleteEvent/{id}
+        defaults: { _controller: EspritFamycityBundle:Event:deleteEvent }
+
+UpdateEvent:
+    path:     /updateEvent/{id}
+    defaults: { _controller: EspritFamycityBundle:Event:updateEvent }
+
+persistEvent:
+    path:     /persistEvent
+    defaults: { _controller: EspritFamycityBundle:Event:persistEvent }
+
+testpage:
+    path:     /test
+    defaults: { _controller: EspritFamycityBundle:Event:test }
+
+SaveupdatedEvent:
+    path:     /SaveupdatedEvent
+    defaults: { _controller: EspritFamycityBundle:Event:SaveupdatedEvent }
+
+pagination:
+    path:     /list
+    defaults: { _controller: EspritFamycityBundle:Event:list }

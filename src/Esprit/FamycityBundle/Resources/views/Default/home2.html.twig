@@ -39,6 +39,11 @@
     <!-- bootstrap wysihtml5 - text editor -->
     <link rel="stylesheet" href="{{asset('Famicity/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')}}">
 
+    <link rel="stylesheet" type="text/css" href="{{ asset('bundles/starrating/css/rating.css') }}" />
+    <!-- make sure that jquery is included --!>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="{{ asset('bundles/starrating/js/rating.js') }}"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -410,7 +415,27 @@
 
 
                 <!-- mehdiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii-->
+                <!-- ------------------------------------Evenements---------------------------------------------------- ----->
 
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-calendar"></i> <span>Gestion Des Evénements</span>
+
+
+                        <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="{{path("testpage") }}"><i class="fa fa-circle-o"></i>  Afficher des évènements  <small class="label pull-right bg-blue">all</small></a>
+
+                        </li>
+
+                        <li><a href="{{ path("AjoutEvents") }}"><i class="fa fa-circle-o"></i> Ajouter des évènements <small class="label pull-right bg-red">+</small></a></li>
+                    </ul>
+                </li>
+
+                <!-- ------------------------------------Evenements---------------------------------------------------- ----->
 
                 <li>
                     <a href="pages/calendar.html">

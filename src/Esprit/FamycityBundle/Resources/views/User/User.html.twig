@@ -1,0 +1,27 @@
+{% trans_default_domain 'FOSUserBundle' %}
+{% extends '@EspritFamycity/secondlayout.html.twig' %}
+
+{% block content %}
+
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            Ajouter Membre de Famille
+
+        </h1>
+
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+
+
+            {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+            {{ form_widget(form) }}
+
+        <div>
+            <input type="submit" value="{{ 'registration.submit'|trans }}" />
+        </div>
+</section>
+{% endblock %}

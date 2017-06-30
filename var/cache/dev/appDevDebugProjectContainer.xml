@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
   <parameters>
-    <parameter key="kernel.root_dir">C:\wamp64\www\FamicityMah\app</parameter>
-    <parameter key="kernel.project_dir">C:\wamp64\www\FamicityMah</parameter>
+    <parameter key="kernel.root_dir">C:\wamp64\www\FamicityMah\FamicityMah\app</parameter>
+    <parameter key="kernel.project_dir">C:\wamp64\www\FamicityMah\FamicityMah</parameter>
     <parameter key="kernel.environment">dev</parameter>
     <parameter key="kernel.debug">true</parameter>
     <parameter key="kernel.name">app</parameter>
-    <parameter key="kernel.cache_dir">C:\wamp64\www\FamicityMah\var\cache\dev</parameter>
-    <parameter key="kernel.logs_dir">C:\wamp64\www\FamicityMah\var\logs</parameter>
+    <parameter key="kernel.cache_dir">C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev</parameter>
+    <parameter key="kernel.logs_dir">C:\wamp64\www\FamicityMah\FamicityMah\var\logs</parameter>
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
       <parameter key="SecurityBundle">Symfony\Bundle\SecurityBundle\SecurityBundle</parameter>
@@ -25,6 +25,7 @@
       <parameter key="NelmioApiDocBundle">Nelmio\ApiDocBundle\NelmioApiDocBundle</parameter>
       <parameter key="JMSSerializerBundle">JMS\SerializerBundle\JMSSerializerBundle</parameter>
       <parameter key="BazingaFakerBundle">Bazinga\Bundle\FakerBundle\BazingaFakerBundle</parameter>
+      <parameter key="SpraedPDFGeneratorBundle">Spraed\PDFGeneratorBundle\SpraedPDFGeneratorBundle</parameter>
       <parameter key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
@@ -34,107 +35,112 @@
     <parameter key="kernel.bundles_metadata" type="collection">
       <parameter key="FrameworkBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
       </parameter>
       <parameter key="SecurityBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\SecurityBundle</parameter>
       </parameter>
       <parameter key="TwigBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\TwigBundle</parameter>
       </parameter>
       <parameter key="MonologBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\symfony\monolog-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\monolog-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\MonologBundle</parameter>
       </parameter>
       <parameter key="SwiftmailerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\symfony\swiftmailer-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\swiftmailer-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\SwiftmailerBundle</parameter>
       </parameter>
       <parameter key="DoctrineBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\doctrine\doctrine-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\doctrine\doctrine-bundle</parameter>
         <parameter key="namespace">Doctrine\Bundle\DoctrineBundle</parameter>
       </parameter>
       <parameter key="SensioFrameworkExtraBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\sensio\framework-extra-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\sensio\framework-extra-bundle</parameter>
         <parameter key="namespace">Sensio\Bundle\FrameworkExtraBundle</parameter>
       </parameter>
       <parameter key="AppBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\src\AppBundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\src\AppBundle</parameter>
         <parameter key="namespace">AppBundle</parameter>
       </parameter>
       <parameter key="EspritFamycityBundle" type="collection">
         <parameter key="parent">FOSUserBundle</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\src\Esprit\FamycityBundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\src\Esprit\FamycityBundle</parameter>
         <parameter key="namespace">Esprit\FamycityBundle</parameter>
       </parameter>
       <parameter key="FOSUserBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\friendsofsymfony\user-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\friendsofsymfony\user-bundle</parameter>
         <parameter key="namespace">FOS\UserBundle</parameter>
       </parameter>
       <parameter key="ObHighchartsBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\ob\highcharts-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\ob\highcharts-bundle</parameter>
         <parameter key="namespace">Ob\HighchartsBundle</parameter>
       </parameter>
       <parameter key="FOSRestBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\friendsofsymfony\rest-bundle\FOS\RestBundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\friendsofsymfony\rest-bundle\FOS\RestBundle</parameter>
         <parameter key="namespace">FOS\RestBundle</parameter>
       </parameter>
       <parameter key="NelmioCorsBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\nelmio\cors-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\nelmio\cors-bundle</parameter>
         <parameter key="namespace">Nelmio\CorsBundle</parameter>
       </parameter>
       <parameter key="NelmioApiDocBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\nelmio\api-doc-bundle\Nelmio\ApiDocBundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\nelmio\api-doc-bundle\Nelmio\ApiDocBundle</parameter>
         <parameter key="namespace">Nelmio\ApiDocBundle</parameter>
       </parameter>
       <parameter key="JMSSerializerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\jms\serializer-bundle\JMS\SerializerBundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\jms\serializer-bundle\JMS\SerializerBundle</parameter>
         <parameter key="namespace">JMS\SerializerBundle</parameter>
       </parameter>
       <parameter key="BazingaFakerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\willdurand\faker-bundle\Bazinga\Bundle\FakerBundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\willdurand\faker-bundle\Bazinga\Bundle\FakerBundle</parameter>
         <parameter key="namespace">Bazinga\Bundle\FakerBundle</parameter>
+      </parameter>
+      <parameter key="SpraedPDFGeneratorBundle" type="collection">
+        <parameter key="parent">null</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\spraed\pdf-generator-bundle\Spraed\PDFGeneratorBundle</parameter>
+        <parameter key="namespace">Spraed\PDFGeneratorBundle</parameter>
       </parameter>
       <parameter key="DebugBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\DebugBundle</parameter>
       </parameter>
       <parameter key="WebProfilerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\WebProfilerBundle</parameter>
       </parameter>
       <parameter key="SensioDistributionBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\sensio\distribution-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\sensio\distribution-bundle</parameter>
         <parameter key="namespace">Sensio\Bundle\DistributionBundle</parameter>
       </parameter>
       <parameter key="SensioGeneratorBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\sensio\generator-bundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\sensio\generator-bundle</parameter>
         <parameter key="namespace">Sensio\Bundle\GeneratorBundle</parameter>
       </parameter>
       <parameter key="WebServerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\WebServerBundle</parameter>
+        <parameter key="path">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\WebServerBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\WebServerBundle</parameter>
       </parameter>
     </parameter>
@@ -167,7 +173,7 @@
       <parameter key="cookie_httponly">true</parameter>
       <parameter key="gc_probability">1</parameter>
     </parameter>
-    <parameter key="session.save_path">C:\wamp64\www\FamicityMah\app/../var/sessions/dev</parameter>
+    <parameter key="session.save_path">C:\wamp64\www\FamicityMah\FamicityMah\app/../var/sessions/dev</parameter>
     <parameter key="session.metadata.update_threshold">0</parameter>
     <parameter key="form.type_extension.csrf.enabled">true</parameter>
     <parameter key="form.type_extension.csrf.field_name">_token</parameter>
@@ -176,13 +182,13 @@
       <parameter>twig</parameter>
     </parameter>
     <parameter key="validator.mapping.cache.prefix"></parameter>
-    <parameter key="validator.mapping.cache.file">C:\wamp64\www\FamicityMah\var\cache\dev/validation.php</parameter>
+    <parameter key="validator.mapping.cache.file">C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/validation.php</parameter>
     <parameter key="validator.translation_domain">validators</parameter>
     <parameter key="profiler_listener.only_exceptions">false</parameter>
     <parameter key="profiler_listener.only_master_requests">false</parameter>
-    <parameter key="profiler.storage.dsn">file:C:\wamp64\www\FamicityMah\var\cache\dev/profiler</parameter>
+    <parameter key="profiler.storage.dsn">file:C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/profiler</parameter>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
-    <parameter key="debug.container.dump">C:\wamp64\www\FamicityMah\var\cache\dev/appDevDebugProjectContainer.xml</parameter>
+    <parameter key="debug.container.dump">C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/appDevDebugProjectContainer.xml</parameter>
     <parameter key="router.options.generator_class">Symfony\Component\Routing\Generator\UrlGenerator</parameter>
     <parameter key="router.options.generator_base_class">Symfony\Component\Routing\Generator\UrlGenerator</parameter>
     <parameter key="router.options.generator_dumper_class">Symfony\Component\Routing\Generator\Dumper\PhpGeneratorDumper</parameter>
@@ -194,24 +200,26 @@
     <parameter key="router.request_context.host">localhost</parameter>
     <parameter key="router.request_context.scheme">http</parameter>
     <parameter key="router.request_context.base_url"></parameter>
-    <parameter key="router.resource">C:\wamp64\www\FamicityMah\app/config/routing_dev.yml</parameter>
+    <parameter key="router.resource">C:\wamp64\www\FamicityMah\FamicityMah\app/config/routing_dev.yml</parameter>
     <parameter key="router.cache_class_prefix">appDevDebugProjectContainer</parameter>
     <parameter key="request_listener.http_port">80</parameter>
     <parameter key="request_listener.https_port">443</parameter>
+    <parameter key="serializer.mapping.cache.file">C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/serialization.php</parameter>
+    <parameter key="serializer.mapping.cache.prefix"></parameter>
     <parameter key="security.authentication.trust_resolver.anonymous_class">Symfony\Component\Security\Core\Authentication\Token\AnonymousToken</parameter>
     <parameter key="security.authentication.trust_resolver.rememberme_class">Symfony\Component\Security\Core\Authentication\Token\RememberMeToken</parameter>
     <parameter key="security.role_hierarchy.roles" type="collection">
-      <parameter key="ROLE_Parent" type="collection">
-        <parameter>ROLE_USER</parameter>
-      </parameter>
-      <parameter key="ROLE_Enfant" type="collection">
-        <parameter>ROLE_USER</parameter>
-      </parameter>
-      <parameter key="ROLE_ADMIN" type="collection">
-        <parameter>ROLE_USER</parameter>
-      </parameter>
       <parameter key="ROLE_SUPER_ADMIN" type="collection">
         <parameter>ROLE_ADMIN</parameter>
+      </parameter>
+      <parameter key="ROLE_PERE" type="collection">
+        <parameter>ROLE_PERE</parameter>
+      </parameter>
+      <parameter key="ROLE_MERE" type="collection">
+        <parameter>ROLE_MERE</parameter>
+      </parameter>
+      <parameter key="ROLE_ENFANT" type="collection">
+        <parameter>ROLE_ENFANT</parameter>
       </parameter>
     </parameter>
     <parameter key="security.access.denied_url">null</parameter>
@@ -264,7 +272,7 @@
     <parameter key="swiftmailer.mailer.default.transport.smtp.timeout">30</parameter>
     <parameter key="swiftmailer.mailer.default.transport.smtp.source_ip">null</parameter>
     <parameter key="swiftmailer.mailer.default.transport.smtp.local_domain">null</parameter>
-    <parameter key="swiftmailer.spool.default.memory.path">C:\wamp64\www\FamicityMah\var\cache\dev/swiftmailer/spool/default</parameter>
+    <parameter key="swiftmailer.spool.default.memory.path">C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/swiftmailer/spool/default</parameter>
     <parameter key="swiftmailer.mailer.default.spool.enabled">true</parameter>
     <parameter key="swiftmailer.mailer.default.plugin.impersonate">null</parameter>
     <parameter key="swiftmailer.mailer.default.single_address">null</parameter>
@@ -383,7 +391,7 @@
     <parameter key="doctrine.orm.second_level_cache.cache_configuration.class">Doctrine\ORM\Cache\CacheConfiguration</parameter>
     <parameter key="doctrine.orm.second_level_cache.regions_configuration.class">Doctrine\ORM\Cache\RegionsConfiguration</parameter>
     <parameter key="doctrine.orm.auto_generate_proxy_classes">true</parameter>
-    <parameter key="doctrine.orm.proxy_dir">C:\wamp64\www\FamicityMah\var\cache\dev/doctrine/orm/Proxies</parameter>
+    <parameter key="doctrine.orm.proxy_dir">C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/doctrine/orm/Proxies</parameter>
     <parameter key="doctrine.orm.proxy_namespace">Proxies</parameter>
     <parameter key="sensio_framework_extra.view.guesser.class">Sensio\Bundle\FrameworkExtraBundle\Templating\TemplateGuesser</parameter>
     <parameter key="sensio_framework_extra.controller.listener.class">Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener</parameter>
@@ -456,7 +464,7 @@
     <parameter key="fos_rest.violation_formatter.class">FOS\RestBundle\Util\ViolationFormatter</parameter>
     <parameter key="fos_rest.request.param_fetcher.class">FOS\RestBundle\Request\ParamFetcher</parameter>
     <parameter key="fos_rest.request.param_fetcher.reader.class">FOS\RestBundle\Request\ParamReader</parameter>
-    <parameter key="fos_rest.cache_dir">C:\wamp64\www\FamicityMah\var\cache\dev/fos_rest</parameter>
+    <parameter key="fos_rest.cache_dir">C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/fos_rest</parameter>
     <parameter key="fos_rest.routing.loader.default_format">json</parameter>
     <parameter key="fos_rest.routing.loader.include_format">false</parameter>
     <parameter key="fos_rest.serializer.serialize_null">false</parameter>
@@ -755,6 +763,9 @@
       <tag name="controller.service_arguments"/>
       <tag name="controller.service_arguments"/>
     </service>
+    <service id="redirect.after.login" class="Esprit\FamycityBundle\Redirection\AfterLoginRedirection" autowire="true" autoconfigure="true">
+      <argument type="service" id="router.default"/>
+    </service>
     <service id="controller_name_converter" class="Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser" public="false">
       <tag name="monolog.logger" channel="request"/>
       <argument type="service" id="kernel"/>
@@ -799,10 +810,10 @@
       <tag name="kernel.event_subscriber"/>
       <argument type="service" id="controller_name_converter"/>
     </service>
-    <service id="2_ea4283f5c9789acb16895717d6455a17c01fd8eab62be7ac17991a051b61608a" class="Symfony\Component\Config\Resource\SelfCheckingResourceChecker" public="false">
+    <service id="2_c2c9d5af10621d3e54cc71196ca9474ff5de9879b0252ad6dfa048f7950d29a1" class="Symfony\Component\Config\Resource\SelfCheckingResourceChecker" public="false">
       <tag name="config_cache.resource_checker" priority="-990"/>
     </service>
-    <service id="1_ea4283f5c9789acb16895717d6455a17c01fd8eab62be7ac17991a051b61608a" class="Symfony\Component\DependencyInjection\Config\ContainerParametersResourceChecker" public="false">
+    <service id="1_c2c9d5af10621d3e54cc71196ca9474ff5de9879b0252ad6dfa048f7950d29a1" class="Symfony\Component\DependencyInjection\Config\ContainerParametersResourceChecker" public="false">
       <tag name="config_cache.resource_checker" priority="-980"/>
       <argument type="service" id="service_container"/>
     </service>
@@ -819,6 +830,7 @@
         <argument type="service" id="validator.mapping.cache_warmer"/>
         <argument type="service" id="router.cache_warmer"/>
         <argument type="service" id="annotations.cache_warmer"/>
+        <argument type="service" id="serializer.mapping.cache_warmer"/>
         <argument type="service" id="twig.cache_warmer"/>
         <argument type="service" id="twig.template_cache_warmer"/>
         <argument type="service" id="doctrine.orm.proxy_cache_warmer"/>
@@ -844,9 +856,9 @@
     <service id="filesystem" class="Symfony\Component\Filesystem\Filesystem"/>
     <service id="file_locator" class="Symfony\Component\HttpKernel\Config\FileLocator">
       <argument type="service" id="kernel"/>
-      <argument>C:\wamp64\www\FamicityMah\app/Resources</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\app/Resources</argument>
       <argument type="collection">
-        <argument>C:\wamp64\www\FamicityMah\app</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\app</argument>
       </argument>
     </service>
     <service id="uri_signer" class="Symfony\Component\HttpKernel\UriSigner">
@@ -854,8 +866,8 @@
     </service>
     <service id="config_cache_factory" class="Symfony\Component\Config\ResourceCheckerConfigCacheFactory">
       <argument type="iterator">
-        <argument type="service" id="1_ea4283f5c9789acb16895717d6455a17c01fd8eab62be7ac17991a051b61608a"/>
-        <argument type="service" id="2_ea4283f5c9789acb16895717d6455a17c01fd8eab62be7ac17991a051b61608a"/>
+        <argument type="service" id="1_c2c9d5af10621d3e54cc71196ca9474ff5de9879b0252ad6dfa048f7950d29a1"/>
+        <argument type="service" id="2_c2c9d5af10621d3e54cc71196ca9474ff5de9879b0252ad6dfa048f7950d29a1"/>
       </argument>
     </service>
     <service id="fragment.handler" class="Symfony\Component\HttpKernel\DependencyInjection\LazyLoadingFragmentHandler">
@@ -939,8 +951,8 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>-H46uZ1M3q77WPcQVcsabZ</argument>
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/pools</argument>
+      <argument>6zpALKxq2pA0R1ippVJ819</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -949,7 +961,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>-H46uZ1M3q77WPcQVcsabZ</argument>
+      <argument>6zpALKxq2pA0R1ippVJ819</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
@@ -969,7 +981,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/pools</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/pools</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
@@ -1008,7 +1020,7 @@
       <argument type="service" id="translator.selector"/>
     </service>
     <service id="translator.selector" class="Symfony\Component\Translation\MessageSelector" public="false"/>
-    <service id="1_4772744ea380a2d08c4cbc1494657da494fc88109346d87d71fe20fbd9e98cce" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id="1_63a50241ff686a95f57f027d79a81564b4b2c5e10656345de54bd099ace9830e" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="session" type="service" id="session" on-invalid="ignore"/>
@@ -1038,23 +1050,23 @@
     <service id="session.flash_bag" class="Symfony\Component\HttpFoundation\Session\Flash\FlashBag" public="false"/>
     <service id="session.attribute_bag" class="Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag" public="false"/>
     <service id="session.storage.mock_file" class="Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage" public="false">
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/sessions</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/sessions</argument>
       <argument>MOCKSESSID</argument>
       <argument type="service" id="session.storage.metadata_bag"/>
     </service>
     <service id="session.handler.native_file" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler" public="false">
-      <argument>C:\wamp64\www\FamicityMah\app/../var/sessions/dev</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\app/../var/sessions/dev</argument>
     </service>
     <service id="session.handler.write_check" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\WriteCheckSessionHandler" public="false"/>
     <service id="session_listener" class="Symfony\Component\HttpKernel\EventListener\SessionListener">
       <tag name="kernel.event_subscriber"/>
-      <argument type="service" id="1_4772744ea380a2d08c4cbc1494657da494fc88109346d87d71fe20fbd9e98cce"/>
+      <argument type="service" id="1_63a50241ff686a95f57f027d79a81564b4b2c5e10656345de54bd099ace9830e"/>
     </service>
     <service id="session.save_listener" class="Symfony\Component\HttpKernel\EventListener\SaveSessionListener">
       <tag name="kernel.event_subscriber"/>
     </service>
     <service id="form.resolved_type_factory" class="Symfony\Component\Form\Extension\DataCollector\Proxy\ResolvedTypeFactoryDataCollectorProxy">
-      <argument type="service" id="1_6a20e9406e8701ad45354c0ed1659748b912afda940305bdfabf68d87c46bce2"/>
+      <argument type="service" id="1_724564f94f9495df36c6acef37cba3946064f429a49aba1304a679f1a30f0052"/>
       <argument type="service" id="data_collector.form"/>
     </service>
     <service id="form.registry" class="Symfony\Component\Form\FormRegistry">
@@ -1302,12 +1314,12 @@
     <service id="templating.filename_parser" class="Symfony\Bundle\FrameworkBundle\Templating\TemplateFilenameParser"/>
     <service id="templating.locator" class="Symfony\Bundle\FrameworkBundle\Templating\Loader\TemplateLocator" public="false">
       <argument type="service" id="file_locator"/>
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev</argument>
     </service>
     <service id="templating.finder" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\TemplateFinder" public="false">
       <argument type="service" id="kernel"/>
       <argument type="service" id="templating.filename_parser"/>
-      <argument>C:\wamp64\www\FamicityMah\app/Resources</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\app/Resources</argument>
     </service>
     <service id="templating.cache_warmer.template_paths" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\TemplatePathsCacheWarmer" public="false">
       <tag name="kernel.cache_warmer" priority="20"/>
@@ -1331,13 +1343,13 @@
         <argument type="service" id="monolog.logger.templating" on-invalid="ignore"/>
       </call>
     </service>
-    <service id="2_8edca0db43086ee06627dbd2aa39857fe99629bb6391abb2468220d516e8ab98" class="Doctrine\Common\Cache\ApcCache" public="false">
+    <service id="2_2091f63648a62aa978c2867f553ae2c9777684b75dd7ab9e4725a6c50735d731" class="Doctrine\Common\Cache\ApcCache" public="false">
       <call method="setNamespace">
         <argument></argument>
       </call>
     </service>
-    <service id="1_8edca0db43086ee06627dbd2aa39857fe99629bb6391abb2468220d516e8ab98" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/validation.php</argument>
+    <service id="1_2091f63648a62aa978c2867f553ae2c9777684b75dd7ab9e4725a6c50735d731" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/validation.php</argument>
       <argument type="service" id="cache.validator"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -1356,8 +1368,8 @@
       </call>
       <call method="addXmlMappings">
         <argument type="collection">
-          <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/config/validation.xml</argument>
-          <argument>C:\wamp64\www\FamicityMah\vendor\friendsofsymfony\user-bundle/Resources/config/validation.xml</argument>
+          <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Component\Form/Resources/config/validation.xml</argument>
+          <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\friendsofsymfony\user-bundle/Resources/config/validation.xml</argument>
         </argument>
       </call>
       <call method="enableAnnotationMapping">
@@ -1373,21 +1385,21 @@
         </argument>
       </call>
       <call method="addXmlMapping">
-        <argument>C:\wamp64\www\FamicityMah\vendor\friendsofsymfony\user-bundle\DependencyInjection\Compiler/../../Resources/config/storage-validation/orm.xml</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\friendsofsymfony\user-bundle\DependencyInjection\Compiler/../../Resources/config/storage-validation/orm.xml</argument>
       </call>
       <factory class="Symfony\Component\Validator\Validation" method="createValidatorBuilder"/>
     </service>
     <service id="validator.mapping.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\ValidatorCacheWarmer" public="false">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="validator.builder"/>
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/validation.php</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/validation.php</argument>
       <argument type="service" id="cache.validator"/>
     </service>
     <service id="validator.mapping.cache.symfony" class="Symfony\Component\Validator\Mapping\Cache\Psr6Cache" public="false">
-      <argument type="service" id="1_8edca0db43086ee06627dbd2aa39857fe99629bb6391abb2468220d516e8ab98"/>
+      <argument type="service" id="1_2091f63648a62aa978c2867f553ae2c9777684b75dd7ab9e4725a6c50735d731"/>
     </service>
     <service id="validator.mapping.cache.doctrine.apc" class="Symfony\Component\Validator\Mapping\Cache\DoctrineCache" public="false">
-      <argument type="service" id="2_8edca0db43086ee06627dbd2aa39857fe99629bb6391abb2468220d516e8ab98"/>
+      <argument type="service" id="2_2091f63648a62aa978c2867f553ae2c9777684b75dd7ab9e4725a6c50735d731"/>
     </service>
     <service id="validator.validator_factory" class="Symfony\Component\Validator\ContainerConstraintValidatorFactory" public="false">
       <argument type="service" id="service_locator.39e66930232432ca5ba91e98fdd8a17b"/>
@@ -1458,7 +1470,7 @@
       </call>
     </service>
     <service id="profiler.storage" class="Symfony\Component\HttpKernel\Profiler\FileProfilerStorage" public="false">
-      <argument>file:C:\wamp64\www\FamicityMah\var\cache\dev/profiler</argument>
+      <argument>file:C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/profiler</argument>
     </service>
     <service id="profiler_listener" class="Symfony\Component\HttpKernel\EventListener\ProfilerListener">
       <tag name="kernel.event_subscriber"/>
@@ -1492,7 +1504,7 @@
       <tag name="data_collector" template="@WebProfiler/Collector/logger.html.twig" id="logger" priority="300"/>
       <tag name="monolog.logger" channel="profiler"/>
       <argument type="service" id="monolog.logger.profiler" on-invalid="ignore"/>
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/appDevDebugProjectContainer</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/appDevDebugProjectContainer</argument>
     </service>
     <service id="data_collector.time" class="Symfony\Component\HttpKernel\DataCollector\TimeDataCollector" public="false">
       <tag name="data_collector" template="@WebProfiler/Collector/time.html.twig" id="time" priority="330"/>
@@ -1529,7 +1541,7 @@
         <argument type="service" id="cache.annotations"/>
       </call>
     </service>
-    <service id="1_6a20e9406e8701ad45354c0ed1659748b912afda940305bdfabf68d87c46bce2" class="Symfony\Component\Form\ResolvedFormTypeFactory" public="false"/>
+    <service id="1_724564f94f9495df36c6acef37cba3946064f429a49aba1304a679f1a30f0052" class="Symfony\Component\Form\ResolvedFormTypeFactory" public="false"/>
     <service id="form.type_extension.form.data_collector" class="Symfony\Component\Form\Extension\DataCollector\Type\DataCollectorTypeExtension" public="false">
       <tag name="form.type_extension" extended_type="Symfony\Component\Form\Extension\Core\Type\FormType" extended-type="Symfony\Component\Form\Extension\Core\Type\FormType"/>
       <argument type="service" id="data_collector.form"/>
@@ -1566,7 +1578,7 @@
     <service id="debug.file_link_formatter" class="Symfony\Component\HttpKernel\Debug\FileLinkFormatter" public="false">
       <argument>null</argument>
       <argument type="service" id="request_stack" on-invalid="ignore"/>
-      <argument>C:\wamp64\www\FamicityMah</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah</argument>
       <argument>/_profiler/open?file=%%f&amp;line=%%l#line%%l</argument>
     </service>
     <service id="debug.event_dispatcher" class="Symfony\Component\HttpKernel\Debug\TraceableEventDispatcher">
@@ -2135,9 +2147,9 @@
     <service id="router.default" class="Symfony\Bundle\FrameworkBundle\Routing\Router" public="false">
       <tag name="monolog.logger" channel="router"/>
       <argument type="service" id="service_container"/>
-      <argument>C:\wamp64\www\FamicityMah\app/config/routing_dev.yml</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\app/config/routing_dev.yml</argument>
       <argument type="collection">
-        <argument key="cache_dir">C:\wamp64\www\FamicityMah\var\cache\dev</argument>
+        <argument key="cache_dir">C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev</argument>
         <argument key="debug">true</argument>
         <argument key="generator_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
         <argument key="generator_base_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
@@ -2175,13 +2187,13 @@
       <argument type="service" id="router.request_context" on-invalid="ignore"/>
       <argument type="service" id="monolog.logger.request" on-invalid="ignore"/>
     </service>
-    <service id="3_7ee064d04a962e1cbba39b8a5795f91caff76870816f11b501780ca4a1736a80" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/annotations.php</argument>
+    <service id="3_dd5814f28aa17c899fd6aedc047ef4c06b70d53b0a98f246bd2a1a1ec8f6941e" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/annotations.php</argument>
       <argument type="service" id="cache.annotations"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
-    <service id="2_7ee064d04a962e1cbba39b8a5795f91caff76870816f11b501780ca4a1736a80" class="Doctrine\Common\Cache\ArrayCache" public="false"/>
-    <service id="1_7ee064d04a962e1cbba39b8a5795f91caff76870816f11b501780ca4a1736a80" class="Doctrine\Common\Annotations\AnnotationRegistry" public="false">
+    <service id="2_dd5814f28aa17c899fd6aedc047ef4c06b70d53b0a98f246bd2a1a1ec8f6941e" class="Doctrine\Common\Cache\ArrayCache" public="false"/>
+    <service id="1_dd5814f28aa17c899fd6aedc047ef4c06b70d53b0a98f246bd2a1a1ec8f6941e" class="Doctrine\Common\Annotations\AnnotationRegistry" public="false">
       <call method="registerLoader">
         <argument>class_exists</argument>
       </call>
@@ -2189,7 +2201,7 @@
     <service id="annotations.reader" class="Doctrine\Common\Annotations\AnnotationReader" public="false">
       <call method="addGlobalIgnoredName">
         <argument>required</argument>
-        <argument type="service" id="1_7ee064d04a962e1cbba39b8a5795f91caff76870816f11b501780ca4a1736a80"/>
+        <argument type="service" id="1_dd5814f28aa17c899fd6aedc047ef4c06b70d53b0a98f246bd2a1a1ec8f6941e"/>
       </call>
     </service>
     <service id="annotations.filesystem_cache" class="Doctrine\Common\Cache\FilesystemCache" public="false">
@@ -2198,11 +2210,89 @@
     <service id="annotations.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\AnnotationsCacheWarmer" public="false">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="annotations.reader"/>
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/annotations.php</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/annotations.php</argument>
       <argument type="service" id="cache.annotations"/>
     </service>
     <service id="annotations.cache" class="Symfony\Component\Cache\DoctrineProvider" public="false">
-      <argument type="service" id="3_7ee064d04a962e1cbba39b8a5795f91caff76870816f11b501780ca4a1736a80"/>
+      <argument type="service" id="3_dd5814f28aa17c899fd6aedc047ef4c06b70d53b0a98f246bd2a1a1ec8f6941e"/>
+    </service>
+    <service id="serializer.normalizer.data_uri" class="Symfony\Component\Serializer\Normalizer\DataUriNormalizer" public="false">
+      <tag name="serializer.normalizer" priority="-920"/>
+    </service>
+    <service id="serializer.normalizer.datetime" class="Symfony\Component\Serializer\Normalizer\DateTimeNormalizer" public="false">
+      <tag name="serializer.normalizer" priority="-910"/>
+    </service>
+    <service id="serializer.normalizer.json_serializable" class="Symfony\Component\Serializer\Normalizer\JsonSerializableNormalizer" public="false">
+      <tag name="serializer.normalizer" priority="-900"/>
+    </service>
+    <service id="serializer.encoder.yaml" class="Symfony\Component\Serializer\Encoder\YamlEncoder" public="false">
+      <tag name="serializer.encoder"/>
+    </service>
+    <service id="serializer.encoder.csv" class="Symfony\Component\Serializer\Encoder\CsvEncoder" public="false">
+      <tag name="serializer.encoder"/>
+    </service>
+    <service id="serializer.normalizer.object" class="Symfony\Component\Serializer\Normalizer\ObjectNormalizer" public="false">
+      <tag name="serializer.normalizer" priority="-1000"/>
+      <argument type="service" id="serializer.mapping.class_metadata_factory"/>
+      <argument>null</argument>
+      <argument type="service" id="property_accessor"/>
+      <argument>null</argument>
+    </service>
+    <service id="serializer.denormalizer.array" class="Symfony\Component\Serializer\Normalizer\ArrayDenormalizer" public="false">
+      <tag name="serializer.normalizer" priority="-990"/>
+    </service>
+    <service id="serializer.mapping.chain_loader" class="Symfony\Component\Serializer\Mapping\Loader\LoaderChain" public="false">
+      <argument type="collection">
+        <argument type="service">
+          <service class="Symfony\Component\Serializer\Mapping\Loader\AnnotationLoader" public="false">
+            <argument type="service" id="annotation_reader"/>
+          </service>
+        </argument>
+      </argument>
+    </service>
+    <service id="serializer.mapping.class_metadata_factory" class="Symfony\Component\Serializer\Mapping\Factory\ClassMetadataFactory" public="false">
+      <argument type="service" id="serializer.mapping.chain_loader"/>
+      <argument>null</argument>
+    </service>
+    <service id="serializer.mapping.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\SerializerCacheWarmer" public="false">
+      <tag name="kernel.cache_warmer"/>
+      <argument type="collection">
+        <argument type="service">
+          <service class="Symfony\Component\Serializer\Mapping\Loader\AnnotationLoader" public="false">
+            <argument type="service" id="annotation_reader"/>
+          </service>
+        </argument>
+      </argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/serialization.php</argument>
+      <argument type="service" id="cache.serializer"/>
+    </service>
+    <service id="serializer.mapping.cache.symfony" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/serialization.php</argument>
+      <argument type="service" id="cache.serializer"/>
+      <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
+    </service>
+    <service id="serializer.mapping.cache.doctrine.apc" class="Doctrine\Common\Cache\ApcCache" public="false">
+      <call method="setNamespace">
+        <argument></argument>
+      </call>
+      <deprecated>The "%service_id%" service is deprecated since Symfony 3.2 and will be removed in 4.0. APCu should now be automatically used when available.</deprecated>
+    </service>
+    <service id="serializer.mapping.cache.apc" class="Doctrine\Common\Cache\ApcCache" public="false">
+      <call method="setNamespace">
+        <argument></argument>
+      </call>
+      <deprecated>The "%service_id%" service is deprecated since Symfony 3.1 and will be removed in 4.0. APCu should now be automatically used when available.</deprecated>
+    </service>
+    <service id="serializer.encoder.xml" class="Symfony\Component\Serializer\Encoder\XmlEncoder" public="false">
+      <tag name="serializer.encoder"/>
+    </service>
+    <service id="serializer.encoder.json" class="Symfony\Component\Serializer\Encoder\JsonEncoder" public="false">
+      <tag name="serializer.encoder"/>
+    </service>
+    <service id="serializer.name_converter.camel_case_to_snake_case" class="Symfony\Component\Serializer\NameConverter\CamelCaseToSnakeCaseNameConverter" public="false"/>
+    <service id="property_info.serializer_extractor" class="Symfony\Component\PropertyInfo\Extractor\SerializerExtractor" public="false">
+      <tag name="property_info.list_extractor" priority="-999"/>
+      <argument type="service" id="serializer.mapping.class_metadata_factory"/>
     </service>
     <service id="security.authorization_checker" class="Symfony\Component\Security\Core\Authorization\AuthorizationChecker">
       <argument type="service" id="security.token_storage"/>
@@ -2253,17 +2343,17 @@
     </service>
     <service id="security.role_hierarchy" class="Symfony\Component\Security\Core\Role\RoleHierarchy" public="false">
       <argument type="collection">
-        <argument key="ROLE_Parent" type="collection">
-          <argument>ROLE_USER</argument>
-        </argument>
-        <argument key="ROLE_Enfant" type="collection">
-          <argument>ROLE_USER</argument>
-        </argument>
-        <argument key="ROLE_ADMIN" type="collection">
-          <argument>ROLE_USER</argument>
-        </argument>
         <argument key="ROLE_SUPER_ADMIN" type="collection">
           <argument>ROLE_ADMIN</argument>
+        </argument>
+        <argument key="ROLE_PERE" type="collection">
+          <argument>ROLE_PERE</argument>
+        </argument>
+        <argument key="ROLE_MERE" type="collection">
+          <argument>ROLE_MERE</argument>
+        </argument>
+        <argument key="ROLE_ENFANT" type="collection">
+          <argument>ROLE_ENFANT</argument>
         </argument>
       </argument>
     </service>
@@ -2739,21 +2829,16 @@
       <argument type="service" id="security.encoder_factory.generic"/>
       <argument>true</argument>
     </service>
-    <service id="security.authentication.success_handler.main.form_login" class="Symfony\Component\Security\Http\Authentication\DefaultAuthenticationSuccessHandler" public="false">
-      <argument type="service" id="security.http_utils"/>
-      <argument type="collection"/>
-      <call method="setOptions">
-        <argument type="collection">
-          <argument key="always_use_default_target_path">false</argument>
-          <argument key="default_target_path">/</argument>
-          <argument key="login_path">/login</argument>
-          <argument key="target_path_parameter">_target_path</argument>
-          <argument key="use_referer">false</argument>
-        </argument>
-      </call>
-      <call method="setProviderKey">
-        <argument>main</argument>
-      </call>
+    <service id="security.authentication.success_handler.main.form_login" class="Symfony\Component\Security\Http\Authentication\CustomAuthenticationSuccessHandler" public="false">
+      <argument type="service" id="redirect.after.login"/>
+      <argument type="collection">
+        <argument key="always_use_default_target_path">false</argument>
+        <argument key="default_target_path">/</argument>
+        <argument key="login_path">/login</argument>
+        <argument key="target_path_parameter">_target_path</argument>
+        <argument key="use_referer">false</argument>
+      </argument>
+      <argument>main</argument>
     </service>
     <service id="security.authentication.failure_handler.main.form_login" class="Symfony\Component\Security\Http\Authentication\DefaultAuthenticationFailureHandler" public="false">
       <argument type="service" id="http_kernel"/>
@@ -2800,12 +2885,12 @@
     </service>
     <service id="security.authentication.listener.anonymous.main" class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
       <argument type="service" id="security.token_storage"/>
-      <argument>595642fab75680.09941839</argument>
+      <argument>5955a79c03a1d8.41624339</argument>
       <argument type="service" id="monolog.logger.security" on-invalid="null"/>
       <argument type="service" id="security.authentication.manager"/>
     </service>
     <service id="security.authentication.provider.anonymous.main" class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-      <argument>595642fab75680.09941839</argument>
+      <argument>5955a79c03a1d8.41624339</argument>
     </service>
     <service id="security.exception_listener.main" class="Symfony\Component\Security\Http\Firewall\ExceptionListener" public="false">
       <argument type="service" id="security.token_storage"/>
@@ -2860,12 +2945,12 @@
     </service>
     <service id="security.authentication.listener.anonymous.api_docs" class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
       <argument type="service" id="security.token_storage"/>
-      <argument>595642fab75680.09941839</argument>
+      <argument>5955a79c03a1d8.41624339</argument>
       <argument type="service" id="monolog.logger.security" on-invalid="null"/>
       <argument type="service" id="security.authentication.manager"/>
     </service>
     <service id="security.authentication.provider.anonymous.api_docs" class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-      <argument>595642fab75680.09941839</argument>
+      <argument>5955a79c03a1d8.41624339</argument>
     </service>
     <service id="security.exception_listener.api_docs" class="Symfony\Component\Security\Http\Firewall\ExceptionListener" public="false">
       <argument type="service" id="security.token_storage"/>
@@ -2924,7 +3009,7 @@
           <argument>form_div_layout.html.twig</argument>
         </argument>
         <argument key="autoescape">name</argument>
-        <argument key="cache">C:\wamp64\www\FamicityMah\var\cache\dev/twig</argument>
+        <argument key="cache">C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/twig</argument>
         <argument key="charset">UTF-8</argument>
         <argument key="paths" type="collection"/>
         <argument key="date" type="collection">
@@ -3034,7 +3119,7 @@
     </service>
     <service id="twig.template_iterator" class="Symfony\Bundle\TwigBundle\TemplateIterator" public="false">
       <argument type="service" id="kernel"/>
-      <argument>C:\wamp64\www\FamicityMah\app</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\app</argument>
       <argument type="collection"/>
     </service>
     <service id="twig.template_cache_warmer" class="Symfony\Bundle\TwigBundle\CacheWarmer\TemplateCacheWarmer" public="false">
@@ -3044,56 +3129,56 @@
     </service>
     <service id="twig.loader.native_filesystem" class="Twig\Loader\FilesystemLoader" public="false">
       <argument type="collection"/>
-      <argument>C:\wamp64\www\FamicityMah</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah</argument>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle/Resources/views</argument>
         <argument>Framework</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle/Resources/views</argument>
         <argument>Security</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle/Resources/views</argument>
         <argument>Twig</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\swiftmailer-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\swiftmailer-bundle/Resources/views</argument>
         <argument>Swiftmailer</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\doctrine\doctrine-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\doctrine\doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\src\Esprit\FamycityBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\src\Esprit\FamycityBundle/Resources/views</argument>
         <argument>EspritFamycity</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\src\Esprit\FamycityBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\src\Esprit\FamycityBundle/Resources/views</argument>
         <argument>FOSUser</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\friendsofsymfony\user-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\friendsofsymfony\user-bundle/Resources/views</argument>
         <argument>FOSUser</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\nelmio\api-doc-bundle\Nelmio\ApiDocBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\nelmio\api-doc-bundle\Nelmio\ApiDocBundle/Resources/views</argument>
         <argument>NelmioApiDoc</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle/Resources/views</argument>
         <argument>Debug</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle/Resources/views</argument>
         <argument>WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\app/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\app/Resources/views</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bridge\Twig/Resources/views/Form</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bridge\Twig/Resources/views/Form</argument>
       </call>
     </service>
     <service id="twig.loader.chain" class="Twig\Loader\ChainLoader" public="false"/>
@@ -3118,7 +3203,7 @@
     <service id="twig.extension.code" class="Symfony\Bridge\Twig\Extension\CodeExtension" public="false">
       <tag name="twig.extension"/>
       <argument type="service" id="debug.file_link_formatter" on-invalid="ignore"/>
-      <argument>C:\wamp64\www\FamicityMah\app</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\app</argument>
       <argument>UTF-8</argument>
     </service>
     <service id="twig.extension.routing" class="Symfony\Bridge\Twig\Extension\RoutingExtension" public="false">
@@ -3196,56 +3281,56 @@
       <tag name="twig.loader"/>
       <argument type="service" id="templating.locator"/>
       <argument type="service" id="templating.name_parser"/>
-      <argument>C:\wamp64\www\FamicityMah</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah</argument>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle/Resources/views</argument>
         <argument>Framework</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle/Resources/views</argument>
         <argument>Security</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle/Resources/views</argument>
         <argument>Twig</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\swiftmailer-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\swiftmailer-bundle/Resources/views</argument>
         <argument>Swiftmailer</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\doctrine\doctrine-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\doctrine\doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\src\Esprit\FamycityBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\src\Esprit\FamycityBundle/Resources/views</argument>
         <argument>EspritFamycity</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\src\Esprit\FamycityBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\src\Esprit\FamycityBundle/Resources/views</argument>
         <argument>FOSUser</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\friendsofsymfony\user-bundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\friendsofsymfony\user-bundle/Resources/views</argument>
         <argument>FOSUser</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\nelmio\api-doc-bundle\Nelmio\ApiDocBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\nelmio\api-doc-bundle\Nelmio\ApiDocBundle/Resources/views</argument>
         <argument>NelmioApiDoc</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle/Resources/views</argument>
         <argument>Debug</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle/Resources/views</argument>
         <argument>WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\app/Resources/views</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\app/Resources/views</argument>
       </call>
       <call method="addPath">
-        <argument>C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bridge\Twig/Resources/views/Form</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bridge\Twig/Resources/views/Form</argument>
       </call>
     </service>
     <service id="templating.engine.twig" class="Symfony\Bundle\TwigBundle\TwigEngine" public="false">
@@ -3294,7 +3379,7 @@
     </service>
     <service id="monolog.processor.psr_log_message" class="Monolog\Processor\PsrLogMessageProcessor" public="false"/>
     <service id="monolog.handler.main" class="Monolog\Handler\StreamHandler">
-      <argument>C:\wamp64\www\FamicityMah\var\logs/dev.log</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\logs/dev.log</argument>
       <argument>100</argument>
       <argument>true</argument>
       <argument>null</argument>
@@ -3311,9 +3396,9 @@
         <argument type="service" id="monolog.processor.psr_log_message"/>
       </call>
     </service>
-    <service id="3_bc12b0d67649046e6d95797f649e2b27ecb7d1182bd03046587efcae390eaf8b" class="Swift_Transport_Esmtp_Auth_PlainAuthenticator" public="false"/>
-    <service id="2_bc12b0d67649046e6d95797f649e2b27ecb7d1182bd03046587efcae390eaf8b" class="Swift_Transport_Esmtp_Auth_LoginAuthenticator" public="false"/>
-    <service id="1_bc12b0d67649046e6d95797f649e2b27ecb7d1182bd03046587efcae390eaf8b" class="Swift_Transport_Esmtp_Auth_CramMd5Authenticator" public="false"/>
+    <service id="3_0fa40ed8cdd227c1382d796c097a4ff61669e6a3b561fe042d9ce8be9eaa2991" class="Swift_Transport_Esmtp_Auth_PlainAuthenticator" public="false"/>
+    <service id="2_0fa40ed8cdd227c1382d796c097a4ff61669e6a3b561fe042d9ce8be9eaa2991" class="Swift_Transport_Esmtp_Auth_LoginAuthenticator" public="false"/>
+    <service id="1_0fa40ed8cdd227c1382d796c097a4ff61669e6a3b561fe042d9ce8be9eaa2991" class="Swift_Transport_Esmtp_Auth_CramMd5Authenticator" public="false"/>
     <service id="swiftmailer.mailer.abstract" class="Swift_Mailer" abstract="true">
       <argument type="service" id="swiftmailer.transport"/>
     </service>
@@ -3330,9 +3415,9 @@
     </service>
     <service id="swiftmailer.transport.authhandler.abstract" class="Swift_Transport_Esmtp_AuthHandler" public="false" abstract="true">
       <argument type="collection">
-        <argument type="service" id="1_bc12b0d67649046e6d95797f649e2b27ecb7d1182bd03046587efcae390eaf8b"/>
-        <argument type="service" id="2_bc12b0d67649046e6d95797f649e2b27ecb7d1182bd03046587efcae390eaf8b"/>
-        <argument type="service" id="3_bc12b0d67649046e6d95797f649e2b27ecb7d1182bd03046587efcae390eaf8b"/>
+        <argument type="service" id="1_0fa40ed8cdd227c1382d796c097a4ff61669e6a3b561fe042d9ce8be9eaa2991"/>
+        <argument type="service" id="2_0fa40ed8cdd227c1382d796c097a4ff61669e6a3b561fe042d9ce8be9eaa2991"/>
+        <argument type="service" id="3_0fa40ed8cdd227c1382d796c097a4ff61669e6a3b561fe042d9ce8be9eaa2991"/>
       </argument>
     </service>
     <service id="swiftmailer.transport.eventdispatcher.abstract" class="Swift_Events_SimpleEventDispatcher" public="false" abstract="true"/>
@@ -3344,7 +3429,7 @@
     <service id="swiftmailer.transport.smtp.abstract" class="Swift_Transport_EsmtpTransport" public="false" abstract="true"/>
     <service id="swiftmailer.transport.spool.abstract" class="Swift_Transport_SpoolTransport" public="false" abstract="true"/>
     <service id="swiftmailer.spool.file.abstract" class="Swift_FileSpool" public="false" abstract="true">
-      <argument>C:\wamp64\www\FamicityMah\app/../data/swiftmailer/spool</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\app/../data/swiftmailer/spool</argument>
     </service>
     <service id="swiftmailer.spool.memory.abstract" class="Swift_MemorySpool" public="false" abstract="true"/>
     <service id="swiftmailer.email_sender.listener" class="Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener">
@@ -3359,9 +3444,9 @@
     <service id="swiftmailer.mailer.default.transport.eventdispatcher" class="Swift_Events_SimpleEventDispatcher" public="false"/>
     <service id="swiftmailer.mailer.default.transport.authhandler" class="Swift_Transport_Esmtp_AuthHandler" public="false">
       <argument type="collection">
-        <argument type="service" id="1_bc12b0d67649046e6d95797f649e2b27ecb7d1182bd03046587efcae390eaf8b"/>
-        <argument type="service" id="2_bc12b0d67649046e6d95797f649e2b27ecb7d1182bd03046587efcae390eaf8b"/>
-        <argument type="service" id="3_bc12b0d67649046e6d95797f649e2b27ecb7d1182bd03046587efcae390eaf8b"/>
+        <argument type="service" id="1_0fa40ed8cdd227c1382d796c097a4ff61669e6a3b561fe042d9ce8be9eaa2991"/>
+        <argument type="service" id="2_0fa40ed8cdd227c1382d796c097a4ff61669e6a3b561fe042d9ce8be9eaa2991"/>
+        <argument type="service" id="3_0fa40ed8cdd227c1382d796c097a4ff61669e6a3b561fe042d9ce8be9eaa2991"/>
       </argument>
       <call method="setUsername">
         <argument>null</argument>
@@ -3576,7 +3661,7 @@
         <argument type="service" id="doctrine.orm.default_metadata_driver"/>
       </call>
       <call method="setProxyDir">
-        <argument>C:\wamp64\www\FamicityMah\var\cache\dev/doctrine/orm/Proxies</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/doctrine/orm/Proxies</argument>
       </call>
       <call method="setProxyNamespace">
         <argument>Proxies</argument>
@@ -3603,7 +3688,7 @@
     <service id="doctrine.orm.default_annotation_metadata_driver" class="Doctrine\ORM\Mapping\Driver\AnnotationDriver" public="false">
       <argument type="service" id="annotations.cached_reader"/>
       <argument type="collection">
-        <argument>C:\wamp64\www\FamicityMah\src\Esprit\FamycityBundle\Entity</argument>
+        <argument>C:\wamp64\www\FamicityMah\FamicityMah\src\Esprit\FamycityBundle\Entity</argument>
       </argument>
     </service>
     <service id="doctrine.orm.default_metadata_driver" class="Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain" public="false">
@@ -3617,7 +3702,7 @@
             <argument type="service">
               <service class="Doctrine\Common\Persistence\Mapping\Driver\SymfonyFileLocator">
                 <argument type="collection">
-                  <argument key="C:\wamp64\www\FamicityMah\vendor\friendsofsymfony\user-bundle\Resources\config\doctrine-mapping">FOS\UserBundle\Model</argument>
+                  <argument key="C:\wamp64\www\FamicityMah\FamicityMah\vendor\friendsofsymfony\user-bundle\Resources\config\doctrine-mapping">FOS\UserBundle\Model</argument>
                 </argument>
                 <argument>.orm.xml</argument>
               </service>
@@ -3629,17 +3714,17 @@
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_metadata_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
-        <argument>sf2orm_default_72993aa747f495893abe4cf125e3336ef8926383491751132de4c416e5dbf39c</argument>
+        <argument>sf2orm_default_1f4560c20d07a2a4f4e41f1519d5ef63b768a9049afba773859f766e3cb00828</argument>
       </call>
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_result_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
-        <argument>sf2orm_default_72993aa747f495893abe4cf125e3336ef8926383491751132de4c416e5dbf39c</argument>
+        <argument>sf2orm_default_1f4560c20d07a2a4f4e41f1519d5ef63b768a9049afba773859f766e3cb00828</argument>
       </call>
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_query_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
-        <argument>sf2orm_default_72993aa747f495893abe4cf125e3336ef8926383491751132de4c416e5dbf39c</argument>
+        <argument>sf2orm_default_1f4560c20d07a2a4f4e41f1519d5ef63b768a9049afba773859f766e3cb00828</argument>
       </call>
     </service>
     <service id="doctrine.orm.default_entity_listener_resolver" class="Doctrine\Bundle\DoctrineBundle\Mapping\ContainerAwareEntityListenerResolver">
@@ -4769,27 +4854,28 @@
     </service>
     <service id="jms_serializer.metadata.file_locator" class="Metadata\Driver\FileLocator" public="false">
       <argument type="collection">
-        <argument key="Symfony\Bundle\FrameworkBundle">C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle/Resources/config/serializer</argument>
-        <argument key="Symfony\Bundle\SecurityBundle">C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle/Resources/config/serializer</argument>
-        <argument key="Symfony\Bundle\TwigBundle">C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle/Resources/config/serializer</argument>
-        <argument key="Symfony\Bundle\MonologBundle">C:\wamp64\www\FamicityMah\vendor\symfony\monolog-bundle/Resources/config/serializer</argument>
-        <argument key="Symfony\Bundle\SwiftmailerBundle">C:\wamp64\www\FamicityMah\vendor\symfony\swiftmailer-bundle/Resources/config/serializer</argument>
-        <argument key="Doctrine\Bundle\DoctrineBundle">C:\wamp64\www\FamicityMah\vendor\doctrine\doctrine-bundle/Resources/config/serializer</argument>
-        <argument key="Sensio\Bundle\FrameworkExtraBundle">C:\wamp64\www\FamicityMah\vendor\sensio\framework-extra-bundle/Resources/config/serializer</argument>
-        <argument key="AppBundle">C:\wamp64\www\FamicityMah\src\AppBundle/Resources/config/serializer</argument>
-        <argument key="Esprit\FamycityBundle">C:\wamp64\www\FamicityMah\src\Esprit\FamycityBundle/Resources/config/serializer</argument>
-        <argument key="FOS\UserBundle">C:\wamp64\www\FamicityMah\vendor\friendsofsymfony\user-bundle/Resources/config/serializer</argument>
-        <argument key="Ob\HighchartsBundle">C:\wamp64\www\FamicityMah\vendor\ob\highcharts-bundle/Resources/config/serializer</argument>
-        <argument key="FOS\RestBundle">C:\wamp64\www\FamicityMah\vendor\friendsofsymfony\rest-bundle\FOS\RestBundle/Resources/config/serializer</argument>
-        <argument key="Nelmio\CorsBundle">C:\wamp64\www\FamicityMah\vendor\nelmio\cors-bundle/Resources/config/serializer</argument>
-        <argument key="Nelmio\ApiDocBundle">C:\wamp64\www\FamicityMah\vendor\nelmio\api-doc-bundle\Nelmio\ApiDocBundle/Resources/config/serializer</argument>
-        <argument key="JMS\SerializerBundle">C:\wamp64\www\FamicityMah\vendor\jms\serializer-bundle\JMS\SerializerBundle/Resources/config/serializer</argument>
-        <argument key="Bazinga\Bundle\FakerBundle">C:\wamp64\www\FamicityMah\vendor\willdurand\faker-bundle\Bazinga\Bundle\FakerBundle/Resources/config/serializer</argument>
-        <argument key="Symfony\Bundle\DebugBundle">C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle/Resources/config/serializer</argument>
-        <argument key="Symfony\Bundle\WebProfilerBundle">C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle/Resources/config/serializer</argument>
-        <argument key="Sensio\Bundle\DistributionBundle">C:\wamp64\www\FamicityMah\vendor\sensio\distribution-bundle/Resources/config/serializer</argument>
-        <argument key="Sensio\Bundle\GeneratorBundle">C:\wamp64\www\FamicityMah\vendor\sensio\generator-bundle/Resources/config/serializer</argument>
-        <argument key="Symfony\Bundle\WebServerBundle">C:\wamp64\www\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\WebServerBundle/Resources/config/serializer</argument>
+        <argument key="Symfony\Bundle\FrameworkBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle/Resources/config/serializer</argument>
+        <argument key="Symfony\Bundle\SecurityBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle/Resources/config/serializer</argument>
+        <argument key="Symfony\Bundle\TwigBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle/Resources/config/serializer</argument>
+        <argument key="Symfony\Bundle\MonologBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\monolog-bundle/Resources/config/serializer</argument>
+        <argument key="Symfony\Bundle\SwiftmailerBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\swiftmailer-bundle/Resources/config/serializer</argument>
+        <argument key="Doctrine\Bundle\DoctrineBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\doctrine\doctrine-bundle/Resources/config/serializer</argument>
+        <argument key="Sensio\Bundle\FrameworkExtraBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\sensio\framework-extra-bundle/Resources/config/serializer</argument>
+        <argument key="AppBundle">C:\wamp64\www\FamicityMah\FamicityMah\src\AppBundle/Resources/config/serializer</argument>
+        <argument key="Esprit\FamycityBundle">C:\wamp64\www\FamicityMah\FamicityMah\src\Esprit\FamycityBundle/Resources/config/serializer</argument>
+        <argument key="FOS\UserBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\friendsofsymfony\user-bundle/Resources/config/serializer</argument>
+        <argument key="Ob\HighchartsBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\ob\highcharts-bundle/Resources/config/serializer</argument>
+        <argument key="FOS\RestBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\friendsofsymfony\rest-bundle\FOS\RestBundle/Resources/config/serializer</argument>
+        <argument key="Nelmio\CorsBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\nelmio\cors-bundle/Resources/config/serializer</argument>
+        <argument key="Nelmio\ApiDocBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\nelmio\api-doc-bundle\Nelmio\ApiDocBundle/Resources/config/serializer</argument>
+        <argument key="JMS\SerializerBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\jms\serializer-bundle\JMS\SerializerBundle/Resources/config/serializer</argument>
+        <argument key="Bazinga\Bundle\FakerBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\willdurand\faker-bundle\Bazinga\Bundle\FakerBundle/Resources/config/serializer</argument>
+        <argument key="Spraed\PDFGeneratorBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\spraed\pdf-generator-bundle\Spraed\PDFGeneratorBundle/Resources/config/serializer</argument>
+        <argument key="Symfony\Bundle\DebugBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle/Resources/config/serializer</argument>
+        <argument key="Symfony\Bundle\WebProfilerBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle/Resources/config/serializer</argument>
+        <argument key="Sensio\Bundle\DistributionBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\sensio\distribution-bundle/Resources/config/serializer</argument>
+        <argument key="Sensio\Bundle\GeneratorBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\sensio\generator-bundle/Resources/config/serializer</argument>
+        <argument key="Symfony\Bundle\WebServerBundle">C:\wamp64\www\FamicityMah\FamicityMah\vendor\symfony\symfony\src\Symfony\Bundle\WebServerBundle/Resources/config/serializer</argument>
       </argument>
     </service>
     <service id="jms_serializer.metadata.yaml_driver" class="JMS\Serializer\Metadata\Driver\YamlDriver" public="false">
@@ -4825,7 +4911,7 @@
       <argument>jms_serializer.metadata_driver</argument>
     </service>
     <service id="jms_serializer.metadata.cache.file_cache" class="Metadata\Cache\FileCache" public="false">
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/jms_serializer</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/jms_serializer</argument>
     </service>
     <service id="jms_serializer.metadata_factory" class="Metadata\MetadataFactory" public="false">
       <argument type="service" id="jms_serializer.metadata.lazy_loading_driver"/>
@@ -4953,7 +5039,7 @@
     <service id="faker.generator" class="Faker\Factory">
       <argument>en_US</argument>
       <call method="seed">
-        <argument>3942</argument>
+        <argument>23181</argument>
       </call>
       <factory class="Faker\Factory" method="create"/>
     </service>
@@ -4975,6 +5061,9 @@
     </service>
     <service id="faker.entities.0" class="Faker\ORM\Doctrine\EntityPopulator">
       <argument type="service" id="faker.entities.0.metadata"/>
+    </service>
+    <service id="spraed.pdf.generator" class="Spraed\PDFGeneratorBundle\PDFGenerator\PDFGenerator">
+      <argument type="service" id="kernel"/>
     </service>
     <service id="twig.extension.dump" class="Symfony\Bridge\Twig\Extension\DumpExtension" public="false">
       <tag name="twig.extension"/>
@@ -5017,7 +5106,7 @@
         </argument>
       </call>
     </service>
-    <service id="2_ecf38e5ceb31d827e41d7fd4a6d96f1de2bedca3b186c20b7047d915eecdcb1e" class="Symfony\Component\VarDumper\Dumper\HtmlDumper" public="false">
+    <service id="2_88dbd4fb037842552a726925db1828411c6b20f68b5c21ad0753b547019dc4ab" class="Symfony\Component\VarDumper\Dumper\HtmlDumper" public="false">
       <argument>null</argument>
       <argument>UTF-8</argument>
       <argument>1</argument>
@@ -5028,7 +5117,7 @@
         </argument>
       </call>
     </service>
-    <service id="1_ecf38e5ceb31d827e41d7fd4a6d96f1de2bedca3b186c20b7047d915eecdcb1e" class="Symfony\Bundle\WebProfilerBundle\Csp\NonceGenerator" public="false"/>
+    <service id="1_88dbd4fb037842552a726925db1828411c6b20f68b5c21ad0753b547019dc4ab" class="Symfony\Bundle\WebProfilerBundle\Csp\NonceGenerator" public="false"/>
     <service id="web_profiler.controller.profiler" class="Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController">
       <argument type="service" id="router.default" on-invalid="null"/>
       <argument type="service" id="profiler" on-invalid="null"/>
@@ -5101,7 +5190,7 @@
       </argument>
       <argument>bottom</argument>
       <argument type="service" id="web_profiler.csp.handler"/>
-      <argument>C:\wamp64\www\FamicityMah</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah</argument>
     </service>
     <service id="web_profiler.controller.router" class="Symfony\Bundle\WebProfilerBundle\Controller\RouterController">
       <argument type="service" id="profiler" on-invalid="null"/>
@@ -5114,11 +5203,11 @@
       <argument>true</argument>
     </service>
     <service id="web_profiler.csp.handler" class="Symfony\Bundle\WebProfilerBundle\Csp\ContentSecurityPolicyHandler" public="false">
-      <argument type="service" id="1_ecf38e5ceb31d827e41d7fd4a6d96f1de2bedca3b186c20b7047d915eecdcb1e"/>
+      <argument type="service" id="1_88dbd4fb037842552a726925db1828411c6b20f68b5c21ad0753b547019dc4ab"/>
     </service>
     <service id="twig.extension.webprofiler" class="Symfony\Bundle\WebProfilerBundle\Twig\WebProfilerExtension" public="false">
       <tag name="twig.extension"/>
-      <argument type="service" id="2_ecf38e5ceb31d827e41d7fd4a6d96f1de2bedca3b186c20b7047d915eecdcb1e"/>
+      <argument type="service" id="2_88dbd4fb037842552a726925db1828411c6b20f68b5c21ad0753b547019dc4ab"/>
     </service>
     <service id="web_profiler.debug_toolbar" class="Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener">
       <tag name="kernel.event_subscriber"/>
@@ -5137,12 +5226,12 @@
     </service>
     <service id="web_server.command.server_run" class="Symfony\Bundle\WebServerBundle\Command\ServerRunCommand" public="false">
       <tag name="console.command"/>
-      <argument>C:\wamp64\www\FamicityMah/web</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah/web</argument>
       <argument>dev</argument>
     </service>
     <service id="web_server.command.server_start" class="Symfony\Bundle\WebServerBundle\Command\ServerStartCommand" public="false">
       <tag name="console.command"/>
-      <argument>C:\wamp64\www\FamicityMah/web</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah/web</argument>
       <argument>dev</argument>
     </service>
     <service id="web_server.command.server_stop" class="Symfony\Bundle\WebServerBundle\Command\ServerStopCommand" public="false">
@@ -5374,42 +5463,42 @@
       <argument>true</argument>
     </service>
     <service id="cache.app.recorder_inner" class="Symfony\Component\Cache\Adapter\FilesystemAdapter" public="false" lazy="true">
-      <argument>Sbv8BDep77</argument>
+      <argument>otsSRx9F47</argument>
       <argument>0</argument>
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/pools</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/pools</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
     </service>
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
-      <argument>WHeLO2oc-2</argument>
+      <argument>iaqIaW2IR7</argument>
       <argument>0</argument>
-      <argument>-H46uZ1M3q77WPcQVcsabZ</argument>
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/pools</argument>
+      <argument>6zpALKxq2pA0R1ippVJ819</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
-      <argument>gEES7JjvJH</argument>
+      <argument>XGqHqnpvZ6</argument>
       <argument>0</argument>
-      <argument>-H46uZ1M3q77WPcQVcsabZ</argument>
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/pools</argument>
+      <argument>6zpALKxq2pA0R1ippVJ819</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
-      <argument>Q+mlw7a7ys</argument>
+      <argument>rwSwHHknCz</argument>
       <argument>0</argument>
-      <argument>-H46uZ1M3q77WPcQVcsabZ</argument>
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/pools</argument>
+      <argument>6zpALKxq2pA0R1ippVJ819</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
-      <argument>EDNmEuUeHh</argument>
+      <argument>YgG3fsqTyT</argument>
       <argument>0</argument>
-      <argument>-H46uZ1M3q77WPcQVcsabZ</argument>
-      <argument>C:\wamp64\www\FamicityMah\var\cache\dev/pools</argument>
+      <argument>6zpALKxq2pA0R1ippVJ819</argument>
+      <argument>C:\wamp64\www\FamicityMah\FamicityMah\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -5464,6 +5553,13 @@
     <service id="Symfony\Component\Routing\RequestContext" alias="router.request_context" public="false"/>
     <service id="annotation_reader" alias="annotations.cached_reader"/>
     <service id="Doctrine\Common\Annotations\Reader" alias="annotations.cached_reader" public="false"/>
+    <service id="Symfony\Component\Serializer\SerializerInterface" alias="jms_serializer.serializer" public="false"/>
+    <service id="Symfony\Component\Serializer\Normalizer\NormalizerInterface" alias="jms_serializer.serializer" public="false"/>
+    <service id="Symfony\Component\Serializer\Normalizer\DenormalizerInterface" alias="jms_serializer.serializer" public="false"/>
+    <service id="Symfony\Component\Serializer\Encoder\EncoderInterface" alias="jms_serializer.serializer" public="false"/>
+    <service id="Symfony\Component\Serializer\Encoder\DecoderInterface" alias="jms_serializer.serializer" public="false"/>
+    <service id="serializer.property_accessor" alias="property_accessor" public="false"/>
+    <service id="Symfony\Component\Serializer\Normalizer\ObjectNormalizer" alias="serializer.normalizer.object" public="false"/>
     <service id="Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface" alias="security.authorization_checker"/>
     <service id="Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface" alias="security.token_storage" public="false"/>
     <service id="security.encoder_factory" alias="security.encoder_factory.generic"/>
@@ -5535,7 +5631,7 @@
     <service id="console.command.symfony_bundle_webserverbundle_command_serverstatuscommand" alias="web_server.command.server_status"/>
     <service id="twig.loader" alias="twig.loader.filesystem"/>
     <service id="fos_rest.serializer" alias="jms_serializer.serializer"/>
-    <service id="service_locator.b8d2046fb854cde05549fb309e1a80d2" alias="1_4772744ea380a2d08c4cbc1494657da494fc88109346d87d71fe20fbd9e98cce" public="false"/>
+    <service id="service_locator.b8d2046fb854cde05549fb309e1a80d2" alias="1_63a50241ff686a95f57f027d79a81564b4b2c5e10656345de54bd099ace9830e" public="false"/>
     <service id="event_dispatcher" alias="debug.event_dispatcher"/>
     <service id="controller_resolver" alias="debug.controller_resolver" public="false"/>
     <service id="argument_resolver" alias="debug.argument_resolver" public="false"/>

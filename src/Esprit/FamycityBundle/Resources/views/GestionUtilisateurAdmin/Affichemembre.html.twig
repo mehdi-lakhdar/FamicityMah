@@ -1,0 +1,32 @@
+{% extends "EspritFamycityBundle::InterAdmin.html.twig" %}
+
+{% block content %}
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+           Liste des Membre
+        </h1>
+
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+    <table class="table" border="1">
+    <tr bgcolor="#337ab7">
+                <td>Nom</td>
+                <td>Prenom</td>
+        <td>Modifier</td>
+        <td>Supprimer</td>
+    </tr>
+    {% for n in forum %}
+   <tr>
+        <td><span>{{ n.nom }}</span></td>
+<td><span>{{ n.prenom }}</span></td>
+       <td><a href="{{ path('Modifier',{'id':n.id})}}" class="btn btn-danger btn-xs">Modifier</a> </td>
+       <td><a href="{{ path('Suprimer',{'id':n.id})}}"  class="btn btn-primary btn-xs">Supprimer</a> </td>
+   </tr>
+    {% endfor %}
+</table>
+</section>
+{% endblock content %}

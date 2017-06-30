@@ -10,7 +10,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Social Pro</title>
+    <title>Famicity</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -405,23 +405,42 @@
                     <ul class="treeview-menu">
                         <li><a href="{{path("CreeCourse") }}"><i class="fa fa-circle-o"></i> Crée course </a></li>
                         <li><a href="{{path("affichiercourse") }}"><i class="fa fa-circle-o"></i> afficher Courses En Attente </a></li>
-                        <li><a href="{{path("affichiercourseValid") }}"><i class="fa fa-circle-o"></i> afficher Courses Valider </a></li>
+                        <li><a href="{{path("affichiercourseValid") }}"><i class="fa fa-circle-o"></i> afficher Courses En cours </a></li>
+                        <li><a href="{{path("affichiercourseAuthorized") }}"><i class="fa fa-circle-o"></i> afficher Courses Fini </a></li>
+                        <li><a href="{{path("affichierMesCourseEncours") }}"><i class="fa fa-circle-o"></i> Mes Course En Cours </a></li>
+                        <li><a href="{{path("courseStat") }}"><i class="fa fa-circle-o"></i> Courses Statistique </a></li>
+
                     </ul>
                 </li>
 
 
                 <!-- mehdiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii-->
 
+                <!-- ------------------------------------Evenements---------------------------------------------------- ----->
 
-                <li>
-                    <a href="pages/calendar.html">
-                        <i class="fa fa-calendar"></i> <span>Calendar</span>
-                        <span class="pull-right-container">
-              <small class="label pull-right bg-red">3</small>
-              <small class="label pull-right bg-blue">17</small>
-            </span>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-calendar"></i> <span>Gestion Des Evénements</span>
+
+
+                    <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i>
+                    </span>
                     </a>
+                    <ul class="treeview-menu">
+                      <li><a href="{{path("testpage") }}"><i class="fa fa-circle-o"></i>  Afficher des évènements  <small class="label pull-right bg-blue">all</small></a>
+
+                          </li>
+
+                        <li><a href="{{ path("AjoutEvents") }}"><i class="fa fa-circle-o"></i> Ajouter des évènements <small class="label pull-right bg-red">+</small></a></li>
+                    </ul>
                 </li>
+
+                <!-- ------------------------------------Evenements---------------------------------------------------- ----->
+
+
+
+
                 <li>
                     <a href="pages/mailbox/mailbox.html">
                         <i class="fa fa-envelope"></i> <span>Mailbox</span>
@@ -457,7 +476,6 @@
         <!-- /.sidebar -->
     </aside>
 
-    <div class="content-wrapper" style="min-height: 1036px;">
     <!-- Content Header (Page header) -->
         <!-- Content Header (Page header) -->
     {% block mainContent %}
