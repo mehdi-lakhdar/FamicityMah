@@ -54,3 +54,19 @@ Stat:
 AfficheEvent:
     path:     /showEvent
     defaults: { _controller: EspritFamycityBundle:Event:findEventDQL }
+
+TimeLine:
+    path:     /Acceuil
+    defaults: { _controller: EspritFamycityBundle:TimeLinePosts:timeLine }
+likePost:
+    path:     /likePost/{idPost}
+    defaults: {_controller: EspritFamycityBundle:TimeLinePosts:likePost}
+CommentPost:
+    path:     /Comment/{idPost}
+    defaults: {_controller: EspritFamycityBundle:TimeLinePosts:commentPubTimeLine}
+getSinglePost:
+    path:     /singlePost/{idPost}
+    defaults: {_controller: EspritFamycityBundle:TimeLinePosts:getPub}
+deleteSinglePost:
+    path:     /deleteSinglePost/{idPost}
+    defaults: {_controller: EspritFamycityBundle:TimeLinePosts:deletePub}

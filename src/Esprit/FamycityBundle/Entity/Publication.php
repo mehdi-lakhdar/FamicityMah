@@ -10,11 +10,7 @@ namespace Esprit\FamycityBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 use JMS\Serializer\Annotation as JMSSerializer;
-/**
- * @ORM\Entity(repositoryClass="Esprit\FamycityBundle\Repository\PublicationRepository")
- * @ORM\Table(name="Publication")
- * @JMSSerializer\ExclusionPolicy("all")
- */
+
 class Publication  implements \JsonSerializable
 {
     /**

@@ -1,0 +1,78 @@
+{% extends '@EspritFamycity/Default/home.html.twig' %}
+  {% block mainContent %}
+      <section class="content-header" xmlns="http://www.w3.org/1999/html">
+          <div class="row">
+              <div class="col-md-12">
+                  <!-- Box Comment -->
+                  <div class="box box-widget">
+                      <div class="box-header with-border">
+                          <div class="user-block">
+                              <img class="img-circle" src="{{asset('Famicity/dist/img/med.jpg')}}" alt="User Image">
+                              <span class="username"><a href="#">{{ m.createur.nom }} {{ m.createur.prenom }}</a></span>
+                              <span class="description">Shared publicly - {{ m.pubDate |date("m/d/Y") }}</span>
+                          </div>
+                          <!-- /.user-block -->
+                          <div class="box-tools">
+                              <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                          </div>
+                          <!-- /.box-tools -->
+                      </div>
+                      <!-- /.box-header -->
+                      {% if m.type == 'Image' %}
+                          <div class="box-body">
+                              <img class="img-responsive pad" src="{{asset('Famicity/dist/img/photo1.png"')}}" alt="Photo">
+
+                              <p>{{ m.libelle }}</p>
+                              {% set coms = m.getComments() %}
+                              {% set likers = m.getParticipants() %}
+                              <a href="{{ path('likePost',{'idPost':m.idPublication})}}"><button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i>{{ likers|length }}  Like</button></a>
+                              <span class="pull-right text-muted">{{ coms|length }} comments</span>
+                          </div>
+
+                      {% elseif m.type == 'Text' %}
+
+
+                      {% else %}
+
+
+
+                      {% endif %}
+
+                      <!-- /.box-body -->
+                      {% for com in m.comments %}
+
+                      <div class="box-footer box-comments">
+                          <div class="box-comment">
+                              <!-- User image -->
+                              <img class="img-circle img-sm" src="../dist/img/user3-128x128.jpg" alt="User Image">
+
+                              <div class="comment-text">
+                      <span class="username">
+                        {{ com.owner.nom }} {{ com.owner.prenom }}
+                        <span class="text-muted pull-right">{{ com.created|date("m/d/Y") }}</span>
+                      </span><!-- /.username -->
+                                  {{ com.comment }}
+                              </div>
+                              <!-- /.comment-text -->
+                          </div>
+
+                          <!-- /.box-comment -->
+                      </div>
+                      {% endfor %}
+                      <!-- /.box-footer -->
+                      <form action="{{ path('CommentPost',{'idPost':m.idPublication})}}" method="post">
+                          <div class="input-group input-group-sm">
+                              <input type="text" class="form-control" name ="comPub" placeholder="Type a Comment ">
+                              <span class="input-group-btn">
+                                           <button type="submit" class="btn btn-info btn-flat">OK</button>
+                                        </span>
+                          </div>
+                      </form>
+                      <!-- /.box-footer -->
+                  </div>
+                  <!-- /.box -->
+              </div>
+      </section>
+
+
+  {% endblock %}

@@ -7,19 +7,20 @@
  */
 
 namespace Esprit\FamycityBundle\Entity;
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
 
 /**
  * @ORM\Entity(repositoryClass="Esprit\FamycityBundle\Repository\TimeLineRepository")
- * @ORM\Table(name="Publication")
+ * @ORM\Table(name="TimeLinePosts")
  *
  */
 class TimeLinePostes
 {
     /**
      * @ORM\Id
-     * @ORM\Column(type="integer")
+     * @ORM\Column(name="id", type="integer")
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $idPublication;
@@ -29,7 +30,7 @@ class TimeLinePostes
      */
     private $type;
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="datetime")
      *
      */
     private $pubDate;
@@ -41,7 +42,7 @@ class TimeLinePostes
     private $libelle;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", nullable=true)
      *
      */
     private $imageSrc;
@@ -52,25 +53,23 @@ class TimeLinePostes
      */
     private $videoSrc;
 
+
     /**
-     * @ORM\ManyToOne(targetEntity="User")
+     * @ORM\ManyToMany(targetEntity="User", mappedBy="timeLinePosts")
      *
      */
     private $participants;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Commentaires")
-     *
+     * @ORM\OneToMany(targetEntity="Commentaires", mappedBy="timeLinePost")
      */
     private $comments;
 
     /**
-     * @ORM\OneToOne(targetEntity="User")
+     * @ORM\ManyToOne(targetEntity="User")
      *
      */
     private $createur;
-
-
 
     /**
      * @return mixed
@@ -171,7 +170,7 @@ class TimeLinePostes
     /**
      * @return mixed
      */
-    public function getParticipants()
+    public  function getParticipants()
     {
         return $this->participants;
     }
@@ -179,10 +178,20 @@ class TimeLinePostes
     /**
      * @param mixed $participants
      */
-    public function setParticipants($participants)
+    public function setParticipants( $participants)
     {
-        $this->participants = $participants;
+        $this->participants =  new ArrayCollection($participants);
     }
+    public function addParticipants(User $u)
+    {
+
+        if (!$this->participants->contains($u)) {
+            $this->participants[] = $u;
+            $u->addpub($this);
+        }
+
+        return $this;
+         }
 
     /**
      * @return mixed
@@ -197,8 +206,12 @@ class TimeLinePostes
      */
     public function setComments($comments)
     {
-        $this->comments = $comments;
+        $this->comments = new ArrayCollection($comments);
     }
+
+
+
+
 
     /**
      * @return mixed
@@ -216,11 +229,18 @@ class TimeLinePostes
         $this->createur = $createur;
     }
 
-    function __toString()
+
+    public function __construct()
     {
-        // TODO: Implement __toString() method.
-        return $this->libelle."" ;
+       // $this->participants = new ArrayCollection() ;
+        $this->comments = new ArrayCollection() ;
+        $this->pubDate = new \DateTime() ;
+
     }
+
+
+
+
 
 
 }

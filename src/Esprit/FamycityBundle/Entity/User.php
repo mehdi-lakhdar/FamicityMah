@@ -40,7 +40,11 @@ class User extends BaseUser
      */
     private $coursesCree ;
 
-
+    /**
+     * @ORM\ManyToMany(targetEntity="TimeLinePostes", inversedBy="participants",cascade={"remove"})
+     * @ORM\JoinTable(name="user_Like_Publication")
+     */
+    private $timeLinePosts;
 
     /**
      * @ORM\OneToMany(targetEntity="Course" , mappedBy="User")
@@ -128,6 +132,60 @@ class User extends BaseUser
         $this->courses = $courses;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getCoursesCree()
+    {
+        return $this->coursesCree;
+    }
+
+    /**
+     * @param mixed $coursesCree
+     */
+    public function setCoursesCree($coursesCree)
+    {
+        $this->coursesCree = $coursesCree;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTimeLinePosts()
+    {
+        return $this->timeLinePosts;
+    }
+
+    /**
+     * @param mixed $timeLinePosts
+     */
+    public function setTimeLinePosts($timeLinePosts)
+    {
+        $this->timeLinePosts = $timeLinePosts;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCoursesValider()
+    {
+        return $this->coursesValider;
+    }
+
+    /**
+     * @param mixed $coursesValider
+     */
+    public function setCoursesValider($coursesValider)
+    {
+        $this->coursesValider = $coursesValider;
+    }
+
+    public function addpub(TimeLinePostes $t){
+        if (!$this->timeLinePosts->contains($t)) {
+            $this->timeLinePosts[] = $t;
+
+        }
+    }
 
 
 

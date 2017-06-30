@@ -12,7 +12,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Entity
  * @ORM\Table(name="Commentaires")
  */
-class Commentaires implements  \JsonSerializable
+class Commentaires
 
 {
     /**
@@ -24,35 +24,44 @@ class Commentaires implements  \JsonSerializable
 
 
     /**
-     * @ORM\OneToOne(targetEntity="User")
+     * @ORM\ManyToOne(targetEntity="User")
      */
     private $owner;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="text")
      */
-    private $value;
-    /**
-     * @ORM\Column(type="date")
-     */
-    private $comDate;
+    private $comment;
 
     /**
-     * @return mixed
+     * @ORM\ManyToOne(targetEntity="TimeLinePostes", inversedBy="comments")
+     * @ORM\JoinColumn(name="publication", referencedColumnName="id")
      */
-
+    private $timeLinePost;
 
     /**
-     * Commentaires constructor.
-     * @param $id
-     * @param $owner
-     * @param $value
+     * @ORM\Column(type="datetime")
      */
-    public function __construct($id, $owner, $value)
+    private $created;
+
+    /**
+     * @ORM\Column(type="datetime", nullable=true)
+     */
+    private $updated;
+
+    public function __construct()
     {
-        $this->id = $id;
-        $this->owner = $owner;
-        $this->value = $value;
+        $this->setCreated(new \DateTime());
+        $this->setUpdated(new \DateTime());
+
+    }
+
+    /**
+     * @ORM\PreUpdate
+     */
+    public function setUpdatedValue()
+    {
+        $this->setUpdated(new \DateTime());
     }
 
     /**
@@ -90,46 +99,67 @@ class Commentaires implements  \JsonSerializable
     /**
      * @return mixed
      */
-    public function getValue()
+    public function getComment()
     {
-        return $this->value;
+        return $this->comment;
     }
 
     /**
-     * @param mixed $value
+     * @param mixed $comment
      */
-    public function setValue($value)
+    public function setComment($comment)
     {
-        $this->value = $value;
-    }
-
-    public function getComDate()
-    {
-        return $this->comDate;
+        $this->comment = $comment;
     }
 
     /**
-     * @param mixed $comDate
+     * @return mixed
      */
-    public function setComDate($comDate)
+    public function getTimeLinePost()
     {
-        $this->comDate = $comDate;
-    }
-    function __toString()
-    {
-        // TODO: Implement __toString() method.
-        return "Owner is ". $this->id . " Value is ". $this->value ;
+        return $this->timeLinePost;
     }
 
-    function jsonSerialize()
+    /**
+     * @param mixed $timeLinePost
+     */
+    public function setTimeLinePost($timeLinePost)
     {
-        // TODO: Implement jsonSerialize() method.
-        return [
-            'id' => $this->id ,
-            'owner' =>$this->owner ,
-            'value' => $this->value ,
-            'date' => $this->comDate,
-        ];
+        $this->timeLinePost = $timeLinePost;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getCreated()
+    {
+        return $this->created;
+    }
+
+    /**
+     * @param mixed $created
+     */
+    public function setCreated($created)
+    {
+        $this->created = $created;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getUpdated()
+    {
+        return $this->updated;
+    }
+
+    /**
+     * @param mixed $updated
+     */
+    public function setUpdated($updated)
+    {
+        $this->updated = $updated;
+    }
+
+
 
 }

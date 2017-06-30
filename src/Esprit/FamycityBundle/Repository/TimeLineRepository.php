@@ -16,7 +16,7 @@ class TimeLineRepository extends  EntityRepository
 
         $query = $this->_em->createQuery(
             "
-              SELECT tp FROM EspritFamycityBundle:TimeLinePosts tp
+              SELECT tp FROM EspritFamycityBundle:TimeLinePostes tp
               WHERE tp.idPublication =:id
               "
             )
@@ -30,9 +30,8 @@ class TimeLineRepository extends  EntityRepository
 
         $query = $this->_em->createQuery(
             "
-              SELECT tp FROM EspritFamycityBundle:TimeLinePosts tp
-            
-              "
+              SELECT tp FROM EspritFamycityBundle:TimeLinePostes tp
+            "
 
         )
         ;
@@ -40,5 +39,6 @@ class TimeLineRepository extends  EntityRepository
         return $query ;
 
     }
+
 
 }
