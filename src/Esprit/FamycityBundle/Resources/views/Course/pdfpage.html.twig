@@ -1,0 +1,51 @@
+<div class="box">
+    <div class="box-header">
+        <h3 class="box-title">Liste Des Course Fini</h3>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+    <table id="example1" class="table table-bordered table-striped dataTable" role="grid" aria-describedby="example1_info">
+                        <thead>
+                        <tr role="row">
+                            <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" style="width: 282px;">Nom du course</th>
+                            <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending" style="width: 251px;">Createur</th>
+                            <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending" style="width: 198px;">en charge par </th>
+                            <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 145px;">Budget </th>
+                            <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 145px;">adresse </th>
+                            <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 145px;">date </th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+
+
+
+                        {% for i in m %}
+
+                        <tr>
+
+                            <td>{{ i.nom }}</td>
+                            <td>{{ i.createur.nom }} {{ i.createur.prenom }}</td>
+                            <td>{{ i.coursier.nom }} {{ i.coursier.prenom }}</td>
+                            <td>{{ i.budget }}</td>
+                            <td>{{ i.adresse }}</td>
+                            <td>{{ i.courseDate }}</td>
+
+                        </tr>
+
+                        {% endfor %}
+
+
+
+
+
+
+
+
+
+                        </tbody>
+
+                    </table>
+    </div>
+    <!-- /.box-body -->
+</div>

@@ -11,9 +11,7 @@
                   <small></small>
               </h1>
               <ol class="breadcrumb">
-                  <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                  <li><a href="#">UI</a></li>
-                  <li class="active">Creation Course</li>
+                  <a href="{{ path('generatePdf')}}"><button type="button" class="btn btn-block btn-primary bg-green">Generate PDF</button></a>
               </ol>
           </section>
 
@@ -42,14 +40,14 @@
                                   <!-- Widget: user widget style 1 -->
                                   <div class="box box-widget widget-user-2">
                                       <!-- Add the bg color to the header using any of the bg-* classes -->
-                                      <div class="widget-user-header bg-blue">
+                                      <div class="widget-user-header bg-green">
                                           <div class="widget-user-image">
-                                              <img class="img-circle" src="{{ i.createur.image }}" alt="User Avatar" >
+                                              <img class="img-circle" src="{{ i.coursier.image }}" alt="User Avatar" >
                                           </div>
                                           <!-- /.widget-user-image -->
                                           <br>
                                           <h3 class="widget-user-username">{{ i.nom }}</h3>
-                                          <h5 class="widget-user-desc">{{ i.createur.nom }}</h5>
+                                          <h5 class="widget-user-desc">{{ i.coursier.nom }}</h5>
                                       </div>
                                       <div class="box-footer no-padding">
                                           <ul class="nav nav-stacked">
@@ -58,6 +56,8 @@
                                               <li>Date :<a href="#">{{ i.courseDate }} <span class="pull-right badge bg-green"></span></a></li>
                                               <li>Status<a href="#">{{ i.status }} <span class="pull-right badge bg-blue"></span></a></li>
                                               <li>En Charge Par<a href="#">{{ i.coursier.nom }} <span class="pull-right badge bg-blue"></span></a></li>
+                                              <li>Cree Par<a href="#">{{ i.createur.nom }} <span class="pull-right badge bg-blue"></span></a></li>
+
 
                                               <li>Description<a href="#">{{ i.description }} <span class="pull-right badge bg-blue"></span></a></li>
 

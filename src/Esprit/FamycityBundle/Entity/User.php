@@ -3,10 +3,14 @@
 namespace Esprit\FamycityBundle\Entity;
 use FOS\UserBundle\Model\User as BaseUser ;
 use Doctrine\ORM\Mapping as ORM ;
+use JMS\Serializer\Annotation as JMSSerializer;
+use Symfony\Component\Security\Core\User\UserCheckerInterface;
+
 
 /**
  * @ORM\Entity
  * @ORM\Table(name="utilisateur")
+ * @JMSSerializer\ExclusionPolicy("all")
  */
 class User extends BaseUser
 {
@@ -109,7 +113,10 @@ class User extends BaseUser
      * @ORM\Column(type="string")
      */
 
-
+    /**
+     * @ORM\Column(type="string")
+     * @JMSSerializer\Expose
+     */
     private $image;
 
     /**
@@ -127,6 +134,83 @@ class User extends BaseUser
     {
         $this->courses = $courses;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getCoursesCree()
+    {
+        return $this->coursesCree;
+    }
+
+    /**
+     * @param mixed $coursesCree
+     */
+    public function setCoursesCree($coursesCree)
+    {
+        $this->coursesCree = $coursesCree;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCoursesValider()
+    {
+        return $this->coursesValider;
+    }
+
+    /**
+     * @param mixed $coursesValider
+     */
+    public function setCoursesValider($coursesValider)
+    {
+        $this->coursesValider = $coursesValider;
+    }
+
+
+    /**
+     *@ORM\ManyToOne(targetEntity="User")
+     *@ORM\JoinColumn(name="idfamille", referencedColumnName="id",onDelete="CASCADE")
+     */
+    protected $idFamille;
+
+    /**
+     * @return mixed
+     */
+    public function getIdFamille()
+    {
+        return $this->idFamille;
+    }
+
+    /**
+     * @param mixed $idFamille
+     */
+    public function setIdFamille($idFamille)
+    {
+        $this->idFamille = $idFamille;
+    }
+
+
+    protected $nbCourse ;
+
+    /**
+     * @return mixed
+     */
+    public function getNbCourse()
+    {
+        return $this->nbCourse;
+    }
+
+    /**
+     * @param mixed $nbCourse
+     */
+    public function setNbCourse($nbCourse)
+    {
+        $this->nbCourse = $nbCourse;
+    }
+
+
+
 
 
 

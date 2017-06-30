@@ -4,10 +4,10 @@ security:
         FOS\UserBundle\Model\UserInterface: bcrypt
 
     role_hierarchy:
-        ROLE_Parent:      ROLE_USER
-        ROLE_Enfant:      ROLE_USER
-        ROLE_ADMIN:       ROLE_USER
         ROLE_SUPER_ADMIN: ROLE_ADMIN
+        ROLE_PERE:       ROLE_PERE
+        ROLE_MERE:       ROLE_MERE
+        ROLE_ENFANT:       ROLE_ENFANT
 
     providers:
         fos_userbundle:
@@ -19,6 +19,8 @@ security:
             form_login:
                 provider: fos_userbundle
                 csrf_token_generator: security.csrf.token_manager
+                success_handler: redirect.after.login
+
                 # if you are using Symfony < 2.8, use the following config instead:
                 # csrf_provider: form.csrf_provider
 

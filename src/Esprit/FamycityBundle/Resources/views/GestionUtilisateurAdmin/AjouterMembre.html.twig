@@ -1,0 +1,44 @@
+{% trans_default_domain 'FOSUserBundle' %}
+{% extends '@EspritFamycity/@EspritFamycity/InterAdmin.html.twig' %}
+
+{% block content %}
+
+
+
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h5 >Indication : On crée ici le resposable de la famille</h5>
+        <h1>
+            Ajouter Membre de Famille
+
+        </h1>
+
+    </section>
+
+
+    <div class="col-md-12">
+        <div class="row">
+
+            <div class="col-md-4">
+            </div>
+
+            <div class="col-md-6">
+    <!-- Main content -->
+    <section class="content">
+
+
+
+        {{ form_start(form) }}
+        {{ form_widget(form) }}
+
+        <div>
+            <input type="submit" value="{{ 'registration.submit'|trans }}" />
+        </div>
+    </section>
+
+</div>
+    </div>
+    </div>
+
+
+{% endblock %}

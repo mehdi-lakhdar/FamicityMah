@@ -2,3 +2,8 @@ services:
 #    esprit_famycity.example:
 #        class: Esprit\FamycityBundle\Example
 #        arguments: ["@service_id", "plain_value", "%parameter%"]
+    fos_user.doctrine_registry:
+              alias: doctrine
+    redirect.after.login:
+              class: Esprit\FamycityBundle\Redirection\AfterLoginRedirection
+              arguments: ["@router"]

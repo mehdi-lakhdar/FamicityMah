@@ -1,0 +1,24 @@
+{% trans_default_domain 'FOSUserBundle' %}
+{% extends 'EspritFamycityBundle::interUser.html.twig' %}
+
+{% block content %}
+
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            Modifier Membre de Famille
+
+        </h1>
+
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+
+        {{ form_start(f2) }}
+        {{ form_widget(f2) }}
+
+
+    </section>
+{% endblock %}

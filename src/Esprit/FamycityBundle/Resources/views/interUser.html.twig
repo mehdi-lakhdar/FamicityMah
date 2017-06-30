@@ -2,15 +2,17 @@
 
 {% trans_default_domain 'FOSUserBundle' %}
 
-{{ include('@EspritFamycity/Profile/show_content.html.twig') }}
+
 
 #}
+{% trans_default_domain 'FOSUserBundle' %}
+
 
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Social Pro</title>
+    <title>Famicity</title>h
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -55,7 +57,7 @@
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini"><b>A</b>LT</span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>Fami</b>city</span>
+            <span class="logo-lg"><b>Famicity</b></span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
@@ -337,7 +339,21 @@
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu">
                 <li class="header">MAIN NAVIGATION</li>
-
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-pie-chart"></i>
+                        <span>Statistique</span>
+                        <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> Demande</a></li>
+                        <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> utilisateurs</a></li>
+                        <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> parametre</a></li>
+                        <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> Publication</a></li>
+                    </ul>
+                </li>
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-pie-chart"></i>
@@ -392,31 +408,6 @@
                         <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
                     </ul>
                 </li>
-                <!-- mehdiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii-->
-
-
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-table"></i> <span>Gestion Des Courses</span>
-                        <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="{{path("CreeCourse") }}"><i class="fa fa-circle-o"></i> Crée course </a></li>
-                        <li><a href="{{path("affichiercourse") }}"><i class="fa fa-circle-o"></i> afficher Courses En Attente </a></li>
-                        <li><a href="{{path("affichiercourseValid") }}"><i class="fa fa-circle-o"></i> afficher Courses En cours </a></li>
-                        <li><a href="{{path("affichiercourseAuthorized") }}"><i class="fa fa-circle-o"></i> afficher Courses Fini </a></li>
-                        <li><a href="{{path("affichierMesCourseEncours") }}"><i class="fa fa-circle-o"></i> Mes Course En Cours </a></li>
-                        <li><a href="{{path("courseStat") }}"><i class="fa fa-circle-o"></i> Courses Statistique </a></li>
-
-                    </ul>
-                </li>
-
-
-                <!-- mehdiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii-->
-
-
                 <li>
                     <a href="pages/calendar.html">
                         <i class="fa fa-calendar"></i> <span>Calendar</span>
@@ -439,16 +430,12 @@
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-pie-chart"></i>
-                        <span>Reclamation</span>
+                        <span>Publication</span>
                         <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
                     </a>
-                    <ul class="treeview-menu">
-                        <li><a href="{{path("Reclamation") }}"><i class="fa fa-circle-o"></i> Creer Reclamation</a></li>
-                        <li><a href="{{path("Reclamation2") }}"><i class="fa fa-circle-o"></i> Mes Reclamation</a></li>
 
-                    </ul>
                 </li>
 
 
@@ -461,24 +448,32 @@
         <!-- /.sidebar -->
     </aside>
 
-    <div class="content-wrapper" style="min-height: 1036px;">
-    <!-- Content Header (Page header) -->
-        <!-- Content Header (Page header) -->
-    {% block mainContent %}
+
+    <div class="row" style="margin-top: 10px;">
+        <div class="col-md-12">
+            <div class="box box-primary">
+                <div class="box-header">
+                    <h3 class="box-title"><i class="fa fa-code"></i> Timeline Markup</h3>
+                </div>
+                <div class="box-body">
+                    <!-- Content Wrapper. Contains page content -->
+                    <div class="content-wrapper">
 
 
+                        {% block content %}
+                        {% endblock %}
 
 
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
 
-
-
-
-
-
-        {% endblock %}
-
-    </div>
-
+        </section>
         <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
@@ -488,8 +483,6 @@
     <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
-
-
 
 <!-- jQuery 2.2.3 -->
 <script src="{{asset('Famicity/plugins/jQuery/jquery-2.2.3.min.js')}}"></script>

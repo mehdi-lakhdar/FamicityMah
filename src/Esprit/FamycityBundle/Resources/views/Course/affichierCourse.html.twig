@@ -42,7 +42,7 @@
                                 <!-- Widget: user widget style 1 -->
                                 <div class="box box-widget widget-user-2">
                                     <!-- Add the bg color to the header using any of the bg-* classes -->
-                                    <div class="widget-user-header bg-blue">
+                                    <div class="widget-user-header bg-red">
                                         <div class="widget-user-image">
                                             <img class="img-circle" src="{{ i.createur.image }}" alt="User Avatar" >
                                         </div>
@@ -59,7 +59,8 @@
                                             <li>Status<a href="#">{{ i.status }} <span class="pull-right badge bg-blue"></span></a></li>
                                             <li>Description<a href="#">{{ i.description }} <span class="pull-right badge bg-blue"></span></a></li>
 
-                                            <a href="{{ path('takecourse',{'idCourse':i.idCourse})}}"><button type="button" class="btn btn-block btn-primary">Prendre en Charge</button></a>
+                                            <a href="{{ path('takecourse',{'idCourse':i.idCourse})}}"><button type="button" class="btn btn-block btn-primary bg-green">Prendre en Charge</button></a>
+                                            <a href="{{ path('deleteCourse',{'idCourse':i.idCourse})}}"><button type="button" class="btn btn-block btn-primary bg-red">Supprimer la course</button></a>
                                         </ul>
                                     </div>
                                 </div>

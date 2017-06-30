@@ -23,7 +23,8 @@ class AppKernel extends Kernel
             new Nelmio\CorsBundle\NelmioCorsBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
-            new Bazinga\Bundle\FakerBundle\BazingaFakerBundle()
+            new Bazinga\Bundle\FakerBundle\BazingaFakerBundle(),
+            new Spraed\PDFGeneratorBundle\SpraedPDFGeneratorBundle()
 
 
         ];
