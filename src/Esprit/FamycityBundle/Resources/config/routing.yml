@@ -50,26 +50,30 @@ Stat:
     path:     /stat
     defaults: { _controller: EspritFamycityBundle:Stat:index  }
 
-AjoutEvent:
-    path:     /addEvent
-    defaults: { _controller: EspritFamycityBundle:Event:addEvent }
-
 AjoutEvents:
         path:     /addEvents
         defaults: { _controller: EspritFamycityBundle:Event:addEvents }
 
-AfficheEvent:
-    path:     /showEvent
-    defaults: { _controller: EspritFamycityBundle:Event:findEventDQL }
-
 DeleteEvent:
-        path:   /showEvent
-        defaults: { _controller: EspritFamycityBundle:Event:findEventDQL }
+        path:   /deleteEvent/{id}
+        defaults: { _controller: EspritFamycityBundle:Event:deleteEvent }
 
 UpdateEvent:
-    path:     /showEvent
-    defaults: { _controller: EspritFamycityBundle:Event:findEventDQL }
+    path:     /updateEvent/{id}
+    defaults: { _controller: EspritFamycityBundle:Event:updateEvent }
 
 persistEvent:
     path:     /persistEvent
     defaults: { _controller: EspritFamycityBundle:Event:persistEvent }
+
+testpage:
+    path:     /test
+    defaults: { _controller: EspritFamycityBundle:Event:test }
+
+SaveupdatedEvent:
+    path:     /SaveupdatedEvent
+    defaults: { _controller: EspritFamycityBundle:Event:SaveupdatedEvent }
+
+pagination:
+    path:     /list
+    defaults: { _controller: EspritFamycityBundle:Event:list }

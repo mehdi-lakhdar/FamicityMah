@@ -27,6 +27,19 @@ class Event
      */
     private $categorie;
     /**
+     * @ORM\Column(name="lieu", type="string")
+     */
+    private $lieu;
+    /**
+     * @ORM\Column(name="img", type="string")
+     */
+    private $image;
+
+    /**
+     * @ORM\Column(name="description", type="string")
+     */
+    private $description;
+    /**
      * @ORM\Column(type="date", nullable=true)
      */
     private $dateDebut;
@@ -51,9 +64,9 @@ class Event
      */
     private $addUser;
 
-  /**
+    /**
      * Event constructor.
-   */
+     */
     public function __construct()
     {
     }
@@ -191,6 +204,53 @@ class Event
     public function setAddUser($addUser)
     {
         $this->addUser = $addUser;
+    }
+    /**
+     * @return mixed
+     */
+    public function getLieu()
+    {
+        return $this->lieu;
+    }
+
+    /**
+     * @param mixed $lieu
+     */
+    public function setLieu($lieu)
+    {
+        $this->lieu = $lieu;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImage()
+    {
+        return $this->image;
+    }
+
+    /**
+     * @param mixed $image
+     */
+    public function setImage($image)
+    {
+        $this->image = $image;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param mixed $description
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
     }
 
 }
