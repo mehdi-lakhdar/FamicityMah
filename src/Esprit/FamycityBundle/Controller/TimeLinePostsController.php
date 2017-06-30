@@ -102,8 +102,38 @@ class TimeLinePostsController extends Controller
         $em->remove($models) ;
         $em->flush() ;
         $models = $em->getRepository('EspritFamycityBundle:TimeLinePostes')->find($idPost);
-        return $this-> render('EspritFamycityBundle:TimeLine:timeLine.html.twig',array('m'=>$pubs));
+        return $this-> render('EspritFamycityBundle:TimeLine:timeLine.html.twig',array('m'=>$models));
 
+    }
+
+    public function loadPubToEditAction(int$idPost){
+        $em = $this->getDoctrine()->getManager();
+        $models = $em->getRepository('EspritFamycityBundle:TimeLinePostes')->find($idPost);
+        return $this-> render('EspritFamycityBundle:TimeLine:EditsinglePost.html.twig',array('m'=>$models));
+    }
+
+    public function editSinglePostAction(Request $request,int $idPost){
+        $em = $this->getDoctrine()->getManager();
+        if ($request->getMethod() == Request::METHOD_POST) {
+
+            $models = $em->getRepository('EspritFamycityBundle:TimeLinePostes')->find($idPost);
+
+            $editLebelle = $request->request->get('libelle');
+
+
+
+            $models->setLibelle($editLebelle);
+
+            $models->setPubDate(new \DateTime()) ;
+            $em->persist($models) ;
+            $em->flush() ;
+
+            $models = $em->getRepository('EspritFamycityBundle:TimeLinePostes')->find($idPost);
+            return $this-> render('EspritFamycityBundle:TimeLine:singlePost.html.twig',array('m'=>$models));
+        }
+
+        $pubs=$em->getRepository('EspritFamycityBundle:TimeLinePostes')->creatFindALl()->getResult();
+        return $this-> render('EspritFamycityBundle:TimeLine:timeLine.html.twig',array('m'=>$pubs));
     }
 
 }

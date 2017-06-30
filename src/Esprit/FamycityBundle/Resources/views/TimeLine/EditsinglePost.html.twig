@@ -24,9 +24,16 @@
                       {% set likers = m.getParticipants() %}
                       {% if m.type == 'Image' %}
                           <div class="box-body">
-                              <img class="img-responsive pad" src="{{asset('Famicity/dist/img/photo1.png"')}}" alt="Photo">
+                              <img class="img-responsive pad" src="{{asset('Famicity/dist/img/photo1.png"')}}" alt="Photo" >
+                              <form action="{{ path('editSinglePost',{'idPost':m.idPublication})}}" method="post">
+                                  <div class="input-group input-group-sm">
+                                      <input type="text" class="form-control" name ="libelle" value="{{ m.libelle }} ">
+                                      <span class="input-group-btn">
+                                           <button type="submit" class="btn btn-info btn-flat">OK</button>
+                                        </span>
+                                  </div>
+                              </form>
 
-                              <p>{{ m.libelle }}</p>
 
                               <a href="{{ path('likePost',{'idPost':m.idPublication})}}"><button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i>{{ likers|length }}  Like</button></a>
                               <span class="pull-right text-muted">{{ coms|length }} comments</span>
@@ -34,9 +41,14 @@
 
                       {% elseif m.type == 'Text' %}
                       <div class="box-body">
-                          <p>
-                              {{ m.libelle }}
-                          </p>
+                          <form action="{{ path('editSinglePost',{'idPost':m.idPublication})}}" method="post">
+                              <div class="input-group input-group-sm">
+                                  <input type="text" class="form-control" name ="libelle" value="{{  m.libelle }}">
+                                  <span class="input-group-btn">
+                                           <button type="submit" class="btn btn-info btn-flat">OK</button>
+                                        </span>
+                              </div>
+                          </form>
                           <ul class="list-inline">
 
                               <li><a href="{{ path('likePost',{'idPost':m.idPublication})}}" class="link-black text-sm"><i class="fa fa-thumbs-o-up margin-r-5"></i> {{ likers|length }} Like</a>
@@ -50,7 +62,14 @@
                       <div class="box-body">
 
                           <p>
-                              {{ m.libelle }}
+                          <form action="{{ path('editSinglePost',{'idPost':m.idPublication})}}" method="post">
+                              <div class="input-group input-group-sm">
+                                  <input type="text" class="form-control" name ="libelle" value="{{  m.libelle  }}">
+                                  <span class="input-group-btn">
+                                           <button type="submit" class="btn btn-info btn-flat">OK</button>
+                                        </span>
+                              </div>
+                          </form>
                           </p>
                           <div class="timeline-item">
 

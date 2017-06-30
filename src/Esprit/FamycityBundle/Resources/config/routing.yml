@@ -70,3 +70,9 @@ getSinglePost:
 deleteSinglePost:
     path:     /deleteSinglePost/{idPost}
     defaults: {_controller: EspritFamycityBundle:TimeLinePosts:deletePub}
+editSinglePost:
+    path: /editSinglePost/{idPost}
+    defaults: {_controller: EspritFamycityBundle:TimeLinePosts:editSinglePost}
+editSinglePostShow:
+    path: /editSinglePostFStep/{idPost}
+    defaults: {_controller: EspritFamycityBundle:TimeLinePosts:loadPubToEdit}

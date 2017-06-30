@@ -61,7 +61,7 @@ class TimeLinePostes
     private $participants;
 
     /**
-     * @ORM\OneToMany(targetEntity="Commentaires", mappedBy="timeLinePost")
+     * @ORM\OneToMany(targetEntity="Commentaires", mappedBy="timeLinePost",cascade={"remove"})
      */
     private $comments;
 

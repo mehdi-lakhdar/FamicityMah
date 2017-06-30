@@ -2,27 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cbabc6b-4534-4be5-b279-948529bdd910" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/singlePost.html.twig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/annotations.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerDeprecations.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/logs/prod.log" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/EditsinglePost.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/TimeLinePostsController.php" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/TimeLinePostsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Commentaires.php" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Commentaires.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Publication.php" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Publication.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/TimeLinePostes.php" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/TimeLinePostes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/User.php" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Repository/TimeLineRepository.php" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Repository/TimeLineRepository.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Default/home.html.twig" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Default/home.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/singlePost.html.twig" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/singlePost.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/timeLine.html.twig" afterPath="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/timeLine.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/prod.log" afterPath="$PROJECT_DIR$/var/logs/prod.log" />
     </list>
     <ignored path="FamicityMah.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,150 +42,7 @@
     <favorites_list name="FamicityMah" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CourseController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/CourseController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
-              <folding>
-                <element signature="e#2415#2444#1#PHP" expanded="true" />
-                <element signature="e#2699#2757#1#PHP" expanded="true" />
-                <element signature="e#2909#2938#1#PHP" expanded="true" />
-                <element signature="e#3477#3506#1#PHP" expanded="true" />
-                <element signature="e#3726#3753#1#PHP" expanded="true" />
-                <element signature="e#4184#4213#1#PHP" expanded="true" />
-                <element signature="e#4423#4450#1#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="singlePost.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/singlePost.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="104" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="104" />
-              <folding>
-                <element signature="e#1643#1651#0#Twig" expanded="true" />
-                <element signature="e#3136#3147#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="timeLine.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/timeLine.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="147" column="86" selection-start-line="147" selection-start-column="86" selection-end-line="147" selection-end-column="86" />
-              <folding>
-                <element signature="e#7480#7496#0#Twig" expanded="true" />
-                <element signature="e#8197#8205#0#Twig" expanded="true" />
-                <element signature="e#8811#8822#0#Twig" expanded="true" />
-                <element signature="e#11147#11155#0#Twig" expanded="true" />
-                <element signature="e#11708#11719#0#Twig" expanded="true" />
-                <element signature="e#14030#14038#0#Twig" expanded="true" />
-                <element signature="e#14646#14657#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeLinePostsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/TimeLinePostsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-              <folding>
-                <element signature="e#52#98#0#PHP" expanded="true" />
-                <element signature="e#580#617#1#PHP" expanded="true" />
-                <element signature="e#936#986#0#PHP" expanded="true" />
-                <element signature="e#1157#1194#1#PHP" expanded="true" />
-                <element signature="e#1248#1275#1#PHP" expanded="true" />
-                <element signature="e#1429#1466#1#PHP" expanded="true" />
-                <element signature="e#1528#1578#0#PHP" expanded="true" />
-                <element signature="e#1839#1876#1#PHP" expanded="true" />
-                <element signature="e#1933#1960#1#PHP" expanded="true" />
-                <element signature="e#2345#2392#0#PHP" expanded="true" />
-                <element signature="e#2456#2501#1#PHP" expanded="true" />
-                <element signature="e#2646#2683#1#PHP" expanded="true" />
-                <element signature="e#2731#2778#0#PHP" expanded="true" />
-                <element signature="e#2945#2982#1#PHP" expanded="true" />
-                <element signature="e#3091#3128#1#PHP" expanded="true" />
-                <element signature="e#3176#3226#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="widgets.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/AdminLTE-2.3.11/pages/widgets.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="1457" column="14" selection-start-line="1382" selection-start-column="6" selection-end-line="1457" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="69" column="16" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Commentaires.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Commentaires.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeLineRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Repository/TimeLineRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-              <folding>
-                <marker date="1498776709084" expanded="true" signature="340:435" ph="SELECT tp FR... EspritFamycityBundle" />
-                <marker date="1498776709084" expanded="true" signature="655:708" ph="SELECT tp FR... EspritFamycityBundle" />
-                <marker date="1498776709084" expanded="true" signature="655:721" ph="SELECT tp FR... EspritFamycityBundle" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeLinePostes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/TimeLinePostes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="68" column="21" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="21" />
-              <folding>
-                <element signature="e#131#179#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
@@ -236,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/RegistrationFormType.php" />
         <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/EspritFamycityBundle.php" />
@@ -277,16 +125,17 @@
         <option value="$PROJECT_DIR$/web/Famicity/dist/js/Timeline.js" />
         <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Security/login_content.html.twig" />
         <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Repository/TimeLineRepository.php" />
-        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Commentaires.php" />
         <option value="$USER_HOME$/Downloads/AdminLTE-2.3.11/pages/widgets.html" />
         <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/Course/PageCreationCourse.html.twig" />
         <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/CourseController.php" />
-        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/singlePost.html.twig" />
-        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/timeLine.html.twig" />
-        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/TimeLinePostsController.php" />
         <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Commentaires.php" />
         <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/TimeLinePostes.php" />
+        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/singlePost.html.twig" />
+        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/timeLine.html.twig" />
+        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/EditsinglePost.html.twig" />
+        <option value="$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/TimeLinePostsController.php" />
       </list>
     </option>
   </component>
@@ -301,10 +150,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1612" />
-    <option name="height" value="876" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -623,7 +471,7 @@
       <workItem from="1498679311406" duration="255000" />
       <workItem from="1498679581871" duration="4951000" />
       <workItem from="1498733194084" duration="7990000" />
-      <workItem from="1498744548030" duration="45691000" />
+      <workItem from="1498744548030" duration="51791000" />
     </task>
     <task id="LOCAL-00001" summary="third commit">
       <created>1498591452487</created>
@@ -716,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498745055969</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge branch 'master' of https://github.com/mehdi-lakhdar/FamicityMah&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;var/cache/dev/appDevDebugProjectContainer.php&#10;#&#9;var/cache/dev/appDevDebugProjectContainer.xml&#10;#&#9;var/logs/dev.log&#10;">
+      <created>1498797935733</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1498797935734</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139758000" />
+    <option name="totallyTimeSpent" value="145858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -732,14 +587,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
+    <frame x="-7" y="0" width="1612" height="867" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29010025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49485862" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31984335" sideWeight="0.53" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41122717" sideWeight="0.47" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1321004" sideWeight="0.47" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767624" sideWeight="0.48971722" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -762,12 +617,12 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31984335" sideWeight="0.53" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41122717" sideWeight="0.47" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1321004" sideWeight="0.47" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767624" sideWeight="0.48971722" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33028722" sideWeight="0.47172236" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29010025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29010025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -839,13 +694,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/secondlayout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Reclamation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1225,18 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Repository/TimeLineRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <marker date="1498776709084" expanded="true" signature="340:435" ph="SELECT tp FR... EspritFamycityBundle" />
-            <marker date="1498776709084" expanded="true" signature="655:708" ph="SELECT tp FR... EspritFamycityBundle" />
-            <marker date="1498776709084" expanded="true" signature="655:721" ph="SELECT tp FR... EspritFamycityBundle" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/CourseController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
@@ -1253,45 +1089,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/config/routing.yml">
+    <entry file="file://$USER_HOME$/Downloads/AdminLTE-2.3.11/pages/widgets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="69" column="16" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="16" />
+        <state relative-caret-position="493">
+          <caret line="1457" column="14" selection-start-line="1382" selection-start-column="6" selection-end-line="1457" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Repository/TimeLineRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <marker date="1498776709084" expanded="true" signature="340:435" ph="SELECT tp FR... EspritFamycityBundle" />
+            <marker date="1498776709084" expanded="true" signature="655:708" ph="SELECT tp FR... EspritFamycityBundle" />
+            <marker date="1498776709084" expanded="true" signature="655:721" ph="SELECT tp FR... EspritFamycityBundle" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="43" column="98" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Commentaires.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/TimeLinePostes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="e#131#179#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/singlePost.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="104" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="104" />
+        <state relative-caret-position="255">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
           <folding>
-            <element signature="e#1643#1651#0#Twig" expanded="true" />
-            <element signature="e#3136#3147#0#Twig" expanded="true" />
+            <element signature="e#947#965#0#Twig" expanded="true" />
+            <element signature="e#1153#1169#0#Twig" expanded="true" />
+            <element signature="e#1907#1915#0#Twig" expanded="true" />
+            <element signature="e#2515#2523#0#Twig" expanded="true" />
+            <element signature="e#3788#3796#0#Twig" expanded="true" />
+            <element signature="e#5402#5413#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/timeLine.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="147" column="86" selection-start-line="147" selection-start-column="86" selection-end-line="147" selection-end-column="86" />
+        <state relative-caret-position="204">
+          <caret line="147" column="88" selection-start-line="147" selection-start-column="88" selection-end-line="147" selection-end-column="88" />
           <folding>
-            <element signature="e#7480#7496#0#Twig" expanded="true" />
-            <element signature="e#8197#8205#0#Twig" expanded="true" />
-            <element signature="e#8811#8822#0#Twig" expanded="true" />
-            <element signature="e#11147#11155#0#Twig" expanded="true" />
-            <element signature="e#11708#11719#0#Twig" expanded="true" />
-            <element signature="e#14030#14038#0#Twig" expanded="true" />
-            <element signature="e#14646#14657#0#Twig" expanded="true" />
+            <element signature="e#7480#7498#0#Twig" expanded="true" />
+            <element signature="e#7708#7724#0#Twig" expanded="true" />
+            <element signature="e#8425#8433#0#Twig" expanded="true" />
+            <element signature="e#9039#9050#0#Twig" expanded="true" />
+            <element signature="e#10342#10360#0#Twig" expanded="true" />
+            <element signature="e#10544#10560#0#Twig" expanded="true" />
+            <element signature="e#11692#11700#0#Twig" expanded="true" />
+            <element signature="e#12253#12264#0#Twig" expanded="true" />
+            <element signature="e#13473#13491#0#Twig" expanded="true" />
+            <element signature="e#13675#13691#0#Twig" expanded="true" />
+            <element signature="e#14823#14831#0#Twig" expanded="true" />
+            <element signature="e#15439#15450#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="75" column="18" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Resources/views/TimeLine/EditsinglePost.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="45" column="88" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="88" />
+          <folding>
+            <element signature="e#947#965#0#Twig" expanded="true" />
+            <element signature="e#1858#1872#0#Twig" expanded="true" />
+            <element signature="e#2914#2928#0#Twig" expanded="true" />
+            <element signature="e#4206#4220#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Controller/TimeLinePostsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#52#98#0#PHP" expanded="true" />
             <element signature="e#580#617#1#PHP" expanded="true" />
@@ -1309,40 +1213,13 @@
             <element signature="e#2945#2982#1#PHP" expanded="true" />
             <element signature="e#3091#3128#1#PHP" expanded="true" />
             <element signature="e#3176#3226#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/AdminLTE-2.3.11/pages/widgets.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="1457" column="14" selection-start-line="1382" selection-start-column="6" selection-end-line="1457" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/Commentaires.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Esprit/FamycityBundle/Entity/TimeLinePostes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="21" />
-          <folding>
-            <element signature="e#131#179#0#PHP" expanded="true" />
+            <element signature="e#3397#3434#1#PHP" expanded="true" />
+            <element signature="e#3482#3538#0#PHP" expanded="true" />
+            <element signature="e#3793#3830#1#PHP" expanded="true" />
+            <element signature="e#4118#4155#1#PHP" expanded="true" />
+            <element signature="e#4207#4259#0#PHP" expanded="true" />
+            <element signature="e#4326#4363#1#PHP" expanded="true" />
+            <element signature="e#4425#4475#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

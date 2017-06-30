@@ -145,6 +145,7 @@
                                                 <img class="img-circle img-bordered-sm" src="{{asset('Famicity/dist/img/user1-128x128.jpg')}}" alt="user image">
                                                 <span class="username">
                                                     <a href="#">{{ i.createur.nom }} {{ i.createur.prenom }}</a>
+                                                    <a href="{{ path('editSinglePostShow',{'idPost':i.idPublication})}}"> <button type="button" class="btn btn-box-tool" data-widget="edit"><i class="fa fa-edit"></i></button></a>
                                                     <a href="{{ path('deleteSinglePost',{'idPost':i.idPublication})}}" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
                                                 </span>
                                                 <span class="description">Shared publicly - {{ i.pubDate |date("m/d/Y") }}</span>
@@ -177,8 +178,9 @@
                                             <div class="user-block">
                                                 <img class="img-circle img-bordered-sm" src="{{asset('Famicity/dist/img/user6-128x128.jpg')}}" alt="User Image">
                                                 <span class="username">
-                          <a href="#">Adam Jones</a>
-                          <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
+                          <a href="#">{{ i.createur.nom }} {{ i.createur.prenom }}</a>
+                                                    <a href="{{ path('editSinglePostShow',{'idPost':i.idPublication})}}"> <button type="button" class="btn btn-box-tool" data-widget="edit"><i class="fa fa-edit"></i></button></a>
+                          <a href="{{ path('deleteSinglePost',{'idPost':i.idPublication})}}" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
                         </span>
                                                 <span class="description">Posted a photo - {{ i.pubDate |date("m/d/Y") }}</span>
                                             </div>
@@ -216,8 +218,9 @@
                                   <div class="user-block">
                                       <img class="img-circle img-bordered-sm" src="{{asset('Famicity/dist/img/user1-128x128.jpg')}}" alt="user image">
                                       <span class="username">
-                                                    <a href="#">{{ i.createur.nom }} {{ i.createur.prenom }}</a>
-                                                    <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
+                                                     <a href="#">{{ i.createur.nom }} {{ i.createur.prenom }}</a>
+                                          <a href="{{ path('editSinglePostShow',{'idPost':i.idPublication})}}"> <button type="button" class="btn btn-box-tool" data-widget="edit"><i class="fa fa-edit"></i></button></a>
+                          <a href="{{ path('deleteSinglePost',{'idPost':i.idPublication})}}" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
                                                 </span>
                                       <span class="description">Shared a video - {{ i.pubDate |date("m/d/Y") }}</span>
                               </div>    <p>
