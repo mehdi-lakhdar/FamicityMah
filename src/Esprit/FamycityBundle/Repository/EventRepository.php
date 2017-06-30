@@ -16,4 +16,12 @@ class EventRepository extends EntityRepository
 $query = $this->getEntityManager()->createQuery("select e  from EspritFamycityBundle:Event e ");
 return $query->getResult();
   }
+
+
+    public function countEvent()
+    {
+        $query = $this->getEntityManager()->createQuery('SELECT COUNT(e.idEvent) FROM EspritFamycityBundle:Event e');
+        return  $query->getSingleScalarResult();
+    }
+
 }

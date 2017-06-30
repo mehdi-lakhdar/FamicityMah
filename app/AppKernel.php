@@ -25,6 +25,11 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Bazinga\Bundle\FakerBundle\BazingaFakerBundle(),
             new Spraed\PDFGeneratorBundle\SpraedPDFGeneratorBundle()
+            new Bazinga\Bundle\FakerBundle\BazingaFakerBundle(),
+            new blackknight467\StarRatingBundle\StarRatingBundle(),
+            new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
+            new Knp\Bundle\SnappyBundle\KnpSnappyBundle()
+
 
 
         ];

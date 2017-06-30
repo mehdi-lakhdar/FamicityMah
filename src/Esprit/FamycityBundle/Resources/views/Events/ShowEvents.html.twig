@@ -1,10 +1,7 @@
-{% extends '@EspritFamycity/layout.html.twig' %}
-{% block content %}
-<!-- Content Wrapper. Contains page content -->
-<div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-        <h1>
+
+
+
+
 <h1> list of events</h1>
 
 <table border="1">
@@ -12,8 +9,14 @@
     <tr>
         <th>id</th>
         <th>categorie</th>
+        <th>libelle</th>
         <th>cost</th>
-
+        <th>date debut</th>
+        <th>date fin</th>
+        <th>participants</th>
+        <th>adduser</th>
+        <th>Supression</th>
+        <th>Mise à jour</th>
     </tr>
 
     {% for events in e %}
@@ -21,7 +24,17 @@
 
         <td>{{ events.idEvent }}</td>
         <td>{{ events.categorie }}</td>
+        <td>{{ events.libelle }}</td>
         <td>{{ events.cost }}</td>
+        <td>{{ events.dateDebut|date('Y-m-d') }}</td>
+        <td>{{ events.dateFin|date('Y-m-d') }}</td>
+
+        <td></td>
+        <td></td>
+        <td><a href="{{ path('DeleteEvent',{'id':events.idEvent}) }}">Supprimer</a></td>
+        <td><a href="{{ path('UpdateEvent',{'id':events.idEvent}) }}">mise à jour</a></td>
     </tr>
     {% endfor %}
 </table>
+
+

@@ -7,7 +7,7 @@
  */
 
 namespace Esprit\FamycityBundle\Entity;
-use Esprit\FamycityBundle\Repository;
+
 use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity(repositoryClass="Esprit\FamycityBundle\Repository\EventRepository")
@@ -27,11 +27,24 @@ class Event
      */
     private $categorie;
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(name="lieu", type="string")
+     */
+    private $lieu;
+    /**
+     * @ORM\Column(name="img", type="string")
+     */
+    private $image;
+
+    /**
+     * @ORM\Column(name="description", type="string")
+     */
+    private $description;
+    /**
+     * @ORM\Column(type="date", nullable=true)
      */
     private $dateDebut;
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="date", nullable=true)
      */
     private $dateFin;
     /**
@@ -50,6 +63,20 @@ class Event
      * @ORM\OneToOne(targetEntity="User")
      */
     private $addUser;
+
+    /**
+     * Event constructor.
+     */
+    public function __construct()
+    {
+    }
+
+    function __toString()
+    {
+        return $this->categorie;
+    }
+
+
 
     /**
      * @return mixed
@@ -177,6 +204,53 @@ class Event
     public function setAddUser($addUser)
     {
         $this->addUser = $addUser;
+    }
+    /**
+     * @return mixed
+     */
+    public function getLieu()
+    {
+        return $this->lieu;
+    }
+
+    /**
+     * @param mixed $lieu
+     */
+    public function setLieu($lieu)
+    {
+        $this->lieu = $lieu;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImage()
+    {
+        return $this->image;
+    }
+
+    /**
+     * @param mixed $image
+     */
+    public function setImage($image)
+    {
+        $this->image = $image;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param mixed $description
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
     }
 
 }

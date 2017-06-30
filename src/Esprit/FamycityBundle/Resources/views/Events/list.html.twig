@@ -1,0 +1,35 @@
+{# total items count #}
+<div class="count">
+    {{ pagination.getTotalItemCount }}
+</div>
+<table>
+    <tr>
+        {# sorting of properties based on query components #}
+        <th>{{ knp_pagination_sortable(pagination, 'Id', 'a.idEvent') }}</th>
+        <th{% if pagination.isSorted('a.Title') %} class="sorted"{% endif %}>{{ knp_pagination_sortable(pagination, 'Title', 'a.libelle') }}</th>
+    </tr>
+
+    {# table body #}
+    {% for article in pagination %}
+        <tr {% if loop.index is odd %}class="color"{% endif %}>
+            <td>{{ article.idEvent }}</td>
+            <td>{{ article.libelle }}</td>
+        </tr>
+    {% endfor %}
+</table>
+{# display navigation #}
+<div class="navigation">
+    {{ knp_pagination_render(pagination) }}
+</div>
+
+<table>
+    <tr>
+        {# sorting of properties based on query components #}
+        <th>{{ knp_pagination_sortable(pagination, 'Id'|trans({foo:'bar'},'messages'), 'a.idEvent' )|raw }}</th>
+        <th{% if pagination.isSorted('a.libelle') %} class="sorted"{% endif %}>{{ knp_pagination_sortable(pagination, 'Title', 'a.libelle')|raw }}</th>
+        <th>{{ knp_pagination_sortable(pagination, 'Author'|trans({}, 'messages'), 'a.categorie' )|raw }}</th>
+    </tr>
+
+    <!-- Content of the table -->
+
+</table>

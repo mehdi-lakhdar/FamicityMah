@@ -124,3 +124,14 @@ fos_rest:
             - { path: '^/', priorities: ['text/html', '*/*'], fallback_format: html, prefer_extension: true }
     exception:
         enabled: true
+
+#KnpSnappyBundle  : It allows you to generate either pdf or image files from your html document
+knp_snappy:
+    pdf:
+        enabled:    true
+        binary:     "\"C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe\""
+        options:    []
+    image:
+        enabled:    true
+        binary:     "\"C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltoimage.exe\""
+        options:    []
